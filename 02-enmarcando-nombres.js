@@ -1,6 +1,3 @@
-
-
-const names = ['midu', 'madeval', 'educalvolpz'];
 function createFrame(names) {
   if (names.length === 0) return "";
   

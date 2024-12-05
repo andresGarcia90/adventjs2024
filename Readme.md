@@ -81,10 +81,14 @@ createFrame(['a', 'bb', 'ccc', 'dddd'])
 ```
 <ul>
   <li>
-    <a href="/js/02-enmarcando-nombres.js"> Resolution ⭐⭐⭐</a>
+    <a href="/js/02-enmarcando-nombres.js"> Resolution Js ⭐⭐⭐</a>
   </li>
   <li>
-    <a href="/ts/02-enmarcando-nombres.ts"> Resolution ⭐⭐⭐⭐</a>
+    <a href="/ts/02-enmarcando-nombres.ts"> Resolution Ts ⭐⭐⭐⭐</a>
+  </li>
+
+  <li>
+    <a href="/python/02-enmarcando-nombres.py"> Resolution Py ⭐⭐⭐⭐</a>
   </li>
 </ul>
 

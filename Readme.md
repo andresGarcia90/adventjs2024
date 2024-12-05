@@ -76,7 +76,7 @@ createFrame(['a', 'bb', 'ccc'])
 
 createFrame(['a', 'bb', 'ccc', 'dddd'])
 ```
-<a href="/02-enmarcando-nombres.js"> Resolution ⭐⭐⭐</a>
+<a href="/js/02-enmarcando-nombres.js"> Resolution ⭐⭐⭐</a>
 
 
 ---
@@ -139,7 +139,7 @@ organizeInventory(inventary2)
 // }
 ```
 
-<a href="/03-organizando-juguetes.js"> Resolution ⭐⭐⭐</a>
+<a href="/js/03-organizando-juguetes.js"> Resolution ⭐⭐⭐</a>
 
 
 ---
@@ -198,7 +198,7 @@ _____#_____
 ```
 Asegúrate de utilizar saltos de línea \n al final de cada línea, excepto en la última.
 
-<a href="/04-decorando-el-arbol-de-navidad.js"> Resolution ⭐⭐⭐⭐</a>
+<a href="/js/04-decorando-el-arbol-de-navidad.js"> Resolution ⭐⭐⭐⭐</a>
 
 ---
 
@@ -247,6 +247,6 @@ organizeShoes(shoes3)
 // []
 ```
 
-<a href="/05-emparejando-botas.js"> Resolution ⭐⭐ </a>
+<a href="/js/05-emparejando-botas.js"> Resolution ⭐⭐ </a>
 
 ---

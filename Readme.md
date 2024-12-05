@@ -32,8 +32,11 @@ const preparedGifts3 = prepareGifts(gifts3)
 console.log(preparedGifts3) // []
 // No hay regalos, la lista queda vacía
 ```
-<a href="/js/01-primer-regalo-prometido.js"> Resolution JS ⭐⭐⭐ </a>
-<a href="/ts/01-primer-regalo-prometido.ts"> Resolution TS ⭐⭐⭐ </a>
+<ul>
+<li><a href="/js/01-primer-regalo-prometido.js"> Resolution JS ⭐⭐⭐ </a></li>
+<li><a href="/ts/01-primer-regalo-prometido.ts"> Resolution TS ⭐⭐⭐ </a> </li>
+<li><a href="/python//01-primer-regalo-prometido.py"> Resolution Py ⭐⭐⭐⭐ </a> </li>
+</ul>
 
 ---
 ### <a name="reto-2-️-enmarcando-nombres"> Reto #2: 🖼️ Enmarcando nombres </a>

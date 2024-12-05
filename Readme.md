@@ -143,6 +143,9 @@ organizeInventory(inventary2)
 ---
 
 ### <a name="reto-4-️-decorando-el-arbol"> Reto #4: 🎄 Decorando el árbol de Navidad </a>
+
+<h3> Medio 🟠 </h3>
+
 ¡Es hora de poner el árbol de Navidad en casa! 🎄 Pero este año queremos que sea especial. Vamos a crear una función que recibe la altura del árbol (un entero positivo entre 1 y 100) y un carácter especial para decorarlo.
 
 La función debe devolver un string que represente el árbol de Navidad, construido de la siguiente manera:

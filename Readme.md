@@ -33,9 +33,9 @@ console.log(preparedGifts3) // []
 // No hay regalos, la lista queda vacía
 ```
 <ul>
-<li><a href="/js/01-primer-regalo-prometido.js"> Resolution JS ⭐⭐⭐ </a></li>
-<li><a href="/ts/01-primer-regalo-prometido.ts"> Resolution TS ⭐⭐⭐ </a> </li>
-<li><a href="/python//01-primer-regalo-prometido.py"> Resolution Py ⭐⭐⭐⭐ </a> </li>
+  <li><a href="/js/01-primer-regalo-prometido.js"> Resolution JS ⭐⭐⭐ </a></li>
+  <li><a href="/ts/01-primer-regalo-prometido.ts"> Resolution TS ⭐⭐⭐ </a> </li>
+  <li><a href="/python//01-primer-regalo-prometido.py"> Resolution Py ⭐⭐⭐⭐ </a> </li>
 </ul>
 
 ---
@@ -79,7 +79,15 @@ createFrame(['a', 'bb', 'ccc'])
 
 createFrame(['a', 'bb', 'ccc', 'dddd'])
 ```
-<a href="/js/02-enmarcando-nombres.js"> Resolution ⭐⭐⭐</a>
+<ul>
+  <li>
+    <a href="/js/02-enmarcando-nombres.js"> Resolution ⭐⭐⭐</a>
+  </li>
+  <li>
+    <a href="/ts/02-enmarcando-nombres.ts"> Resolution ⭐⭐⭐⭐</a>
+  </li>
+</ul>
+
 
 
 ---

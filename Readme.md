@@ -218,7 +218,10 @@ _____#_____
 ```
 Asegúrate de utilizar saltos de línea \n al final de cada línea, excepto en la última.
 
-<a href="/js/04-decorando-el-arbol-de-navidad.js"> Resolution ⭐⭐⭐⭐</a>
+<ul> 
+  <li> <a href="/js/04-decorando-el-arbol-de-navidad.js"> Resolution Js ⭐⭐⭐⭐</a> </li>
+  <li> <a href="/ts/04-decorando-el-arbol-de-navidad.ts"> Resolution Ts ⭐⭐⭐⭐</a> </li>
+</ul>
 
 ---
 

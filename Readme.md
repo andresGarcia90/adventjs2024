@@ -11,6 +11,7 @@
   - [ Reto #3: 🏗️ Organizando el inventario ](#-reto-3-️-organizando-el-inventario-)
   - [ Reto #4: 🎄 Decorando el árbol de Navidad ](#-reto-4--decorando-el-árbol-de-navidad-)
   - [ Reto #5: 👞 Emparejando botas ](#-reto-5--emparejando-botas-)
+  - [ Reto #6: 📦 ¿Regalo dentro de la caja? ](#-reto-6--regalo-dentro-de-la-caja-)
 ---
 ### <a name="reto-1--primer-regalo-repetido">Reto #1: 🎁 ¡Primer regalo repetido! </a>
 <h3> Fácil 🟢 </h3>
@@ -229,8 +230,6 @@ Asegúrate de utilizar saltos de línea \n al final de cada línea, excepto en l
 ### <a name="reto-5-️-emparejando-botas"> Reto #5: 👞 Emparejando botas </a>
 <h3> Fácil 🟢 </h3>
 
-
-
 Los elfos 🧝🧝‍♂️ de Santa Claus han encontrado un montón de botas mágicas desordenadas en el taller. Cada bota se describe por dos valores:
 
 - type indica si es una bota izquierda (I) o derecha (R).
@@ -275,5 +274,55 @@ organizeShoes(shoes3)
   <li> <a href="/ts/05-emparejando-botas.ts"> Resolution Ts ⭐⭐ </a> </li>
   <li> <a href="/python/05-emparejando-botas.py"> Resolution Py ⭐⭐⭐ </a> </li>
 </ul>
+
+---
+
+### <a name="reto-6-️-regalo-dentro-de-la-caja"> Reto #6: 📦 ¿Regalo dentro de la caja? </a>
+
+Ya hemos empaquetado cientos de regalos 🎁… pero a un elfo se le ha olvidado revisar si el regalo, representado por un asterisco *, está dentro de la caja.
+
+La caja tiene un regalo (*) y cuenta como dentro de la caja si:
+
+- Está rodeada por # en los bordes de la caja.
+- El * no está en los bordes de la caja.
+Ten en cuenta entonces que el * puede estar dentro, fuera o incluso no estar. Y debemos devolver true si el * está dentro de la caja y false en caso contrario.
+
+Ejemplos:
+
+```javascript
+inBox([
+  "###",
+  "#*#",
+  "###"
+]) // ➞ true
+
+inBox([
+  "####",
+  "#* #",
+  "#  #",
+  "####"
+]) // ➞ true
+
+inBox([
+  "*####",
+  "#   #",
+  "#  #*",
+  "####"
+]) // ➞ false
+
+inBox([
+  "#####",
+  "#   #",
+  "#   #",
+  "#   #",
+  "#####"
+]) // ➞ false
+```
+
+<ul>
+  <li> <a href="/js/06-regalo-dentro-de-la-caja.js"> Resolution Js ⭐⭐⭐ </a> </li>
+  <li> <a href="/ts/06-regalo-dentro-de-la-caja.ts"> Resolution Ts ⭐⭐⭐ </a> </li>
+</ul>
+
 
 ---

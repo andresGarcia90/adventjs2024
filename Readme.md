@@ -270,7 +270,9 @@ const shoes3 = [
 organizeShoes(shoes3)
 // []
 ```
-
-<a href="/js/05-emparejando-botas.js"> Resolution ⭐⭐ </a>
+<ul>
+  <li> <a href="/js/05-emparejando-botas.js"> Resolution Js ⭐⭐ </a> </li>
+  <li> <a href="/ts/05-emparejando-botas.ts"> Resolution Ts ⭐⭐ </a> </li>
+</ul>
 
 ---

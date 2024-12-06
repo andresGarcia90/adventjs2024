@@ -221,6 +221,7 @@ Asegúrate de utilizar saltos de línea \n al final de cada línea, excepto en l
 <ul> 
   <li> <a href="/js/04-decorando-el-arbol-de-navidad.js"> Resolution Js ⭐⭐⭐⭐</a> </li>
   <li> <a href="/ts/04-decorando-el-arbol-de-navidad.ts"> Resolution Ts ⭐⭐⭐⭐</a> </li>
+  <li> <a href="/python/04-decorando-el-arbol-de-navidad.py"> Resolution Py ⭐⭐⭐</a> </li>
 </ul>
 
 ---

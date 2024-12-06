@@ -1,6 +1,4 @@
-function createFrame(names: string[]): string {
-  if (names.length === 0) return "";
-  
+function createFrameTs(names: string[]): string {
   const maxLength = Math.max(...names.map(name => name.length));
 
   const namesWithWithSpaces = names.map(name => {

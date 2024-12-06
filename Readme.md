@@ -154,7 +154,11 @@ organizeInventory(inventary2)
 // }
 ```
 
-<a href="/js/03-organizando-juguetes.js"> Resolution ⭐⭐⭐</a>
+<ul>
+  <li> <a href="/js/03-organizando-juguetes.js"> Resolution Js⭐⭐⭐</a> </li>
+  <li> <a href="/ts/03-organizando-juguetes.ts"> Resolution Ts⭐⭐⭐⭐</a> </li>
+</ul>
+
 
 
 ---

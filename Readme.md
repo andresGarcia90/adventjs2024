@@ -320,8 +320,8 @@ inBox([
 ```
 
 <ul>
-  <li> <a href="/js/06-regalo-dentro-de-la-caja.js"> Resolution Js ⭐⭐⭐ </a> </li>
-  <li> <a href="/ts/06-regalo-dentro-de-la-caja.ts"> Resolution Ts ⭐⭐⭐ </a> </li>
+  <li> <a href="/js/06-regalo-dentro-de-la-caja.js"> Resolution Js ⭐⭐⭐⭐⭐ </a> </li>
+  <li> <a href="/ts/06-regalo-dentro-de-la-caja.ts"> Resolution Ts ⭐⭐⭐⭐⭐ </a> </li>
 </ul>
 
 

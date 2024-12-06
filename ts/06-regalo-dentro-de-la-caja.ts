@@ -1,15 +1,10 @@
-function inBoxTs(box: string[]): boolean  {
-  if (!box || box.length === 0) return false;
-
-  for (let j = 0; j < box.length; j++) {
+function inBoxTs(box: string[]): boolean {
+  for (let j = 1; j < box.length - 1; j++) {
     const line = box[j];
-    if ((j === 0 || j === box.length - 1) && line.includes('*')) return false;
-
-    if (line.includes('*')) {
-      const presentIndex = line.indexOf('*');
-      if( presentIndex === 0 || presentIndex === line.length - 1  ) return false;
-      return true;
-    }
+    const presentIndex = line.indexOf('*');
+    if (presentIndex === -1) continue;
+    if (presentIndex === 0 || presentIndex === line.length - 1) return false;
+    return true;
   }
   return false;
 }

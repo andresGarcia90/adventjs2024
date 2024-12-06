@@ -1,7 +1,5 @@
 function inBox(box) {
-  if (!box || box.length === 0) return false;
-
-  for (let j = 1; j < box.length; j++) {
+  for (let j = 1; j < box.length - 1; j++) {
     const line = box[j];
     const presentIndex = line.indexOf('*');
     if (presentIndex === -1) continue;

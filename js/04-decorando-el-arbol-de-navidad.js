@@ -1,25 +1,18 @@
 function createXmasTree(height, ornament) {
-  const arrayOfOrnaments = [];
-  if (height >= 1 && height <= 100) {
-    const lengthOfLine = height * 2 - 1;
-    for (let i = 1; i <= height; i++) {
-      const numberOfOrnaments = 2 * i - 1;
-      const offset = Math.floor((lengthOfLine - numberOfOrnaments) / 2);
-      arrayOfOrnaments.push(
-        '_'.repeat(offset) +
-          ornament.repeat(numberOfOrnaments) +
-          '_'.repeat(offset)
-      );
-    }
-    const offsetOfSticks = Math.floor((lengthOfLine - 1) / 2);
-    arrayOfOrnaments.push(
-      '_'.repeat(offsetOfSticks) + '#' + '_'.repeat(offsetOfSticks)
-    );
-    arrayOfOrnaments.push(
-      '_'.repeat(offsetOfSticks) + '#' + '_'.repeat(offsetOfSticks)
-    );
+  const width = height * 2 - 1; 
+  const tree = [];
+
+  for (let i = 0; i < height; i++) {
+    const ornaments = ornament.repeat(2 * i + 1);
+    const padding = '_'.repeat((width - ornaments.length) / 2);
+    tree.push(`${padding}${ornaments}${padding}`);
   }
-  return arrayOfOrnaments.join('\n');
+
+
+  const trunk = '_'.repeat((width - 1) / 2) + '#' + '_'.repeat((width - 1) / 2);
+  tree.push(trunk, trunk);
+
+  return tree.join('\n');
 }
 
 

@@ -34,7 +34,7 @@ console.log(preparedGifts3) // []
 // No hay regalos, la lista queda vacía
 ```
 <ul>
-  <li><a href="/js/01-primer-regalo-prometido.js"> Resolution JS ⭐⭐⭐ </a></li>
+  <li><a href="/js/01-primer-regalo-prometido.js"> Resolution JS ⭐⭐⭐⭐⭐ </a></li>
   <li><a href="/ts/01-primer-regalo-prometido.ts"> Resolution TS ⭐⭐⭐ </a> </li>
   <li><a href="/python//01-primer-regalo-prometido.py"> Resolution Py ⭐⭐⭐⭐ </a> </li>
 </ul>
@@ -82,7 +82,7 @@ createFrame(['a', 'bb', 'ccc', 'dddd'])
 ```
 <ul>
   <li>
-    <a href="/js/02-enmarcando-nombres.js"> Resolution Js ⭐⭐⭐</a>
+    <a href="/js/02-enmarcando-nombres.js"> Resolution Js ⭐⭐⭐⭐⭐</a>
   </li>
   <li>
     <a href="/ts/02-enmarcando-nombres.ts"> Resolution Ts ⭐⭐⭐⭐</a>
@@ -156,7 +156,7 @@ organizeInventory(inventary2)
 ```
 
 <ul>
-  <li> <a href="/js/03-organizando-juguetes.js"> Resolution Js⭐⭐⭐</a> </li>
+  <li> <a href="/js/03-organizando-juguetes.js"> Resolution Js⭐⭐⭐⭐⭐</a> </li>
   <li> <a href="/ts/03-organizando-juguetes.ts"> Resolution Ts⭐⭐⭐⭐</a> </li>
   <li> <a href="/python/03-organizando-juguetes.py"> Resolution Py⭐⭐⭐⭐</a> </li>
 </ul>
@@ -220,7 +220,7 @@ _____#_____
 Asegúrate de utilizar saltos de línea \n al final de cada línea, excepto en la última.
 
 <ul> 
-  <li> <a href="/js/04-decorando-el-arbol-de-navidad.js"> Resolution Js ⭐⭐⭐⭐</a> </li>
+  <li> <a href="/js/04-decorando-el-arbol-de-navidad.js"> Resolution Js ⭐⭐⭐⭐⭐</a> </li>
   <li> <a href="/ts/04-decorando-el-arbol-de-navidad.ts"> Resolution Ts ⭐⭐⭐⭐</a> </li>
   <li> <a href="/python/04-decorando-el-arbol-de-navidad.py"> Resolution Py ⭐⭐⭐</a> </li>
 </ul>
@@ -270,7 +270,7 @@ organizeShoes(shoes3)
 // []
 ```
 <ul>
-  <li> <a href="/js/05-emparejando-botas.js"> Resolution Js ⭐⭐ </a> </li>
+  <li> <a href="/js/05-emparejando-botas.js"> Resolution Js ⭐⭐⭐⭐⭐ </a> </li>
   <li> <a href="/ts/05-emparejando-botas.ts"> Resolution Ts ⭐⭐ </a> </li>
   <li> <a href="/python/05-emparejando-botas.py"> Resolution Py ⭐⭐⭐ </a> </li>
 </ul>

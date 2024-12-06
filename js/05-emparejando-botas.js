@@ -1,25 +1,22 @@
 function organizeShoes(shoes) {
   const pairOfShoes = [];
-  if (shoes.length === 0) return pairOfShoes;
+  const shoeCounts = new Map();
 
-  const mapOfShoes = new Map();
+  for (const { type, size } of shoes) {
+    const oppositeType = type === 'I' ? 'R' : 'I';
+    const oppositeKey = `${oppositeType}_${size}`;
+    const currentKey = `${type}_${size}`;
 
-  shoes.forEach(shoe => {
-    const oppositeShoe = shoe.type === 'I' ? 'R' : 'I';
-    const oppositePair = `${oppositeShoe}_${shoe.size}`;
-    if (mapOfShoes.has(oppositePair) && mapOfShoes.get(oppositePair) > 0) {
-      mapOfShoes.set(oppositePair, mapOfShoes.get(oppositePair) - 1);
-      pairOfShoes.push(shoe.size);
+    if (shoeCounts.get(oppositeKey) > 0) {
+      shoeCounts.set(oppositeKey, shoeCounts.get(oppositeKey) - 1);
+      pairOfShoes.push(size);
     } else {
-      const currentShoe = `${shoe.type}_${shoe.size}`;
-      const countCurrent = mapOfShoes.get(currentShoe) || 0;
-      mapOfShoes.set(currentShoe, countCurrent + 1);
+      shoeCounts.set(currentKey, (shoeCounts.get(currentKey) || 0) + 1);
     }
-  });
+  }
 
   return pairOfShoes;
 }
-
 const shoes = [
   { type: 'I', size: 38 },
   { type: 'R', size: 38 },

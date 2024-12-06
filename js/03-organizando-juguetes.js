@@ -1,6 +1,4 @@
 function organizeInventory(inventory) {
-  if (inventory.length === 0) return {};
-
   const organizedInventory = {};
 
   inventory.forEach(({category, name, quantity}) => {

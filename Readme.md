@@ -279,6 +279,8 @@ organizeShoes(shoes3)
 
 ### <a name="reto-6-️-regalo-dentro-de-la-caja"> Reto #6: 📦 ¿Regalo dentro de la caja? </a>
 
+<h3> Medio 🟠 </h3>
+
 Ya hemos empaquetado cientos de regalos 🎁… pero a un elfo se le ha olvidado revisar si el regalo, representado por un asterisco *, está dentro de la caja.
 
 La caja tiene un regalo (*) y cuenta como dentro de la caja si:

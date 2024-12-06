@@ -157,6 +157,7 @@ organizeInventory(inventary2)
 <ul>
   <li> <a href="/js/03-organizando-juguetes.js"> Resolution Js⭐⭐⭐</a> </li>
   <li> <a href="/ts/03-organizando-juguetes.ts"> Resolution Ts⭐⭐⭐⭐</a> </li>
+  <li> <a href="/python/03-organizando-juguetes.py"> Resolution Py⭐⭐⭐⭐</a> </li>
 </ul>
 
 

@@ -6,14 +6,6 @@
 function moveTrain(board, mov) {
   let trainPosition = {x: 0, y: 0};
 
-  for (let i = 0; i < board.length; i++) {
-    const yPosition = board[i].indexOf('@');
-    if (yPosition > -1) {
-      trainPosition = {x: i, y: yPosition};
-      break;
-    }
-  }
-  
   if (mov === 'U') {
     trainPosition.x -= 1;
   } else if (mov === 'D') {
@@ -24,19 +16,35 @@ function moveTrain(board, mov) {
     trainPosition.y -= 1;
   }
 
-  if (trainPosition.x < 0 || trainPosition.y < 0 || trainPosition.x >= board.length || trainPosition.y >= board[0].length) {
-    return 'crash';
-  }
 
-  if(board[trainPosition.x][trainPosition.y] === '*') {
-    return 'eat';
+  for (let i = 0; i < board.length; i++) {
+    if (board[i].indexOf('@') > -1) {
+      const x = i + trainPosition.x;
+      const y = board[i].indexOf('@') + trainPosition.y;
+      if (x < 0 || y < 0 || x >= board.length || y >= board[0].length || board[x][y] === 'o') {
+        return 'crash';
+      }
+      if(board[x][y] === '*') {
+        return 'eat';
+      }
+      return 'none';
+    }
   }
+  
 
-  if(board[trainPosition.x][trainPosition.y] === 'o') {
-    return 'crash';
-  }
+  // if (trainPosition.x < 0 || trainPosition.y < 0 || trainPosition.x >= board.length || trainPosition.y >= board[0].length) {
+  //   return 'crash';
+  // }
 
-  return 'none';
+  // if(board[trainPosition.x][trainPosition.y] === '*') {
+  //   return 'eat';
+  // }
+
+  // if(board[trainPosition.x][trainPosition.y] === 'o') {
+  //   return 'crash';
+  // }
+
+  // return 'none';
 }
 
 // '·····'

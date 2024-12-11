@@ -14,6 +14,7 @@
   - [ Reto #6: 📦 ¿Regalo dentro de la caja? ](#-reto-6--regalo-dentro-de-la-caja-)
   - [ Reto #7: 👹 El ataque del Grinch ](#-reto-7--el-ataque-del-grinch-)
   - [ Reto #8: 🦌 La carrera de renos ](#-reto-8--la-carrera-de-renos-)
+  - [ Reto #11: 🏴‍☠️ Nombres de archivos codificados ](#-reto-11-️-nombres-de-archivos-codificados-)
 ---
 ### <a name="reto-1--primer-regalo-repetido">Reto #1: 🎁 ¡Primer regalo repetido! </a>
 <h3> Fácil 🟢 </h3>
@@ -415,6 +416,40 @@ drawRace([3, 7, -2], 12)
 ```
 <ul>
   <li> <a href="/js/08-carrera-de-renos.js"> Resolution Js ⭐⭐⭐ </a> </li>
+</ul>
+
+---
+
+### <a name="reto-11-️-nombres-codificados"> Reto #11: 🏴‍☠️ Nombres de archivos codificados </a>
+
+<h3> Fácil 🟢 </h3>
+
+El Grinch ha hackeado 🏴‍☠️ los sistemas del taller de Santa Claus y ha codificado los nombres de todos los archivos importantes. Ahora los elfos no pueden encontrar los archivos originales y necesitan tu ayuda para descifrar los nombres.
+
+Cada archivo sigue este formato:
+
+Comienza con un número (puede contener cualquier cantidad de dígitos).
+Luego tiene un guion bajo _.
+Continúa con un nombre de archivo y su extensión.
+Finaliza con una extensión extra al final (que no necesitamos).
+Ten en cuenta que el nombre de los archivos pueden contener letras (a-z, A-Z), números (0-9), otros guiones bajos (_) y guiones (-).
+
+Tu tarea es implementar una función que reciba un string con el nombre de un archivo codificado y devuelva solo la parte importante: el nombre del archivo y su extensión.
+
+Ejemplos 
+```javascript
+decodeFilename('2023122512345678_sleighDesign.png.grinchwa')
+// ➞ "sleighDesign.png"
+
+decodeFilename('42_chimney_dimensions.pdf.hack2023')
+// ➞ "chimney_dimensions.pdf"
+
+decodeFilename('987654321_elf-roster.csv.tempfile')
+// ➞ "elf-roster.csv"
+
+```
+<ul>
+  <li> <a href="/js/11-nombres-de-archivos-codificados.js"> Resolution Js ⭐⭐⭐⭐⭐ </a> </li>
 </ul>
 
 ---

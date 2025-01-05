@@ -613,7 +613,7 @@ fixGiftList(['bear', 'bear', 'car'], ['car', 'bear', 'bear'])
 
 ```
 <ul>
-  <li> <a href="/js/20-encuentre-los-regalos.js"> Resolution Js ⭐⭐⭐ </a> </li>
+  <li> <a href="/js/20-encuentre-los-regalos.js"> Resolution Js ⭐⭐⭐⭐⭐ </a> </li>
 </ul>
 
 ---

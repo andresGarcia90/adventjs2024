@@ -7,53 +7,35 @@ function compile(instructions) {
   let index = 0;
 
   while (index < instructions.length) {
-    
-    
     const instruction = instructions[index].split(' ');
-    if (instruction[0] === "MOV") {
-      const variableX = instruction[1];
+    const variableX = instruction[1];
+    if (instruction[0] === 'MOV') {
       const variableY = instruction[2];
       const isNumber = !isNaN(parseFloat(variableX)) && isFinite(variableX);
-      map[variableY] = isNumber ? parseInt(variableX) : (map[variableX] ?? 0);
+      map[variableY] = isNumber ? parseInt(variableX) : map[variableX] ?? 0;
       index++;
     }
 
-    if (instruction[0] === "INC") {
-      const variableX = instruction[1];
-      if(parseInt(map[variableX])){
-        map[variableX] = parseInt(map[variableX]) + 1;  
-      } else {
-        map[variableX] = (map[variableX] ?? 0) + 1;
-      }
-      
-      // map[variableX] = (parseInt(map[variableX]) ?? 0) + 1;
-
-      index++;
-    }
-
-    if (instruction[0] === "DEC") {
-      const variableX = instruction[1];
+    if (instruction[0] === 'INC' || instruction[0] === 'DEC') {
+      const value = instruction[0] === 'INC' ? 1 : -1;
       if (parseInt(map[variableX])) {
-        map[variableX] = parseInt(map[variableX]) - 1;
+        map[variableX] = parseInt(map[variableX]) + value;
       } else {
-        map[variableX] = (map[variableX] ?? 0) - 1;
+        map[variableX] = (map[variableX] ?? 0) + value;
       }
-      // map[variableX] =  (parseInt(map[variableX]) ?? 0) - 1;
       index++;
-
     }
 
-    if (instruction[0] === "JMP") {
-      const variableX = instruction[1];
+    if (instruction[0] === 'JMP') {
       const variableY = instruction[2];
-      if((map[variableX] ?? 0) === 0) {
+      if ((map[variableX] ?? 0) === 0) {
         index = parseInt(variableY);
       } else {
         index++;
       }
     }
   }
-  return  map["A"] ?? undefined;
+  return map['A'] ?? undefined;
 }
 
 // const instructions = [
@@ -64,13 +46,7 @@ function compile(instructions) {
 //   'INC A' // incrementa el valor del registro 'a'
 // ]
 
-
-const instructions = compile([
-  "INC A",
-  "INC A",
-  "DEC A",
-  "MOV A B",
-])
+const instructions = compile(['INC A', 'INC A', 'DEC A', 'MOV A B']);
 // console.log(compile(instructions));
 
 console.log(compile(instructions));

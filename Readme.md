@@ -17,9 +17,10 @@
   - [ Reto #11: 🏴‍☠️ Nombres de archivos codificados ](#-reto-11-️-nombres-de-archivos-codificados-)
   - [ Reto #14: 🦌 Acomodando los renos ](#-reto-14--acomodando-los-renos-)
   - [ Reto #15: ✏️ Dibujando tablas ](#-reto-15-️-dibujando-tablas-)
-  - [ Reto #15: ✏️ Dibujando tablas ](#-reto-15-️-dibujando-tablas--1)
+  - [Reto #16: ❄️ Limpiando la nieve del camino ](#reto-16-️-limpiando-la-nieve-del-camino-)
   - [ Reto #20: 🎁 Encuentra los regalos faltantes y duplicados ](#-reto-20--encuentra-los-regalos-faltantes-y-duplicados-)
   - [ Reto #21: 🎄 Calcula la altura del árbol de Navidad ](#-reto-21--calcula-la-altura-del-árbol-de-navidad-)
+  - [ Reto #23: 🔢 Encuentra los números perdidos ](#-reto-23--encuentra-los-números-perdidos-)
 ---
 ### <a name="reto-1--primer-regalo-repetido">Reto #1: 🎁 ¡Primer regalo repetido! </a>
 <h3> Fácil 🟢 </h3>
@@ -556,7 +557,7 @@ drawTable([
 
 ---
 
-### <a name="reto-15-️-dibujando-tablas"> Reto #15: ✏️ Dibujando tablas </a>
+### <a name="reto-16-️-limpiando-la-nieve">Reto #16: ❄️ Limpiando la nieve del camino </a>
 
 <h3> Fácil 🟢 </h3>
 
@@ -702,4 +703,38 @@ treeHeight(tree)
 ```
 <ul>
   <li> <a href="/js/21-calcula-la-altura.js"> Resolution Js ⭐ </a> </li>
+</ul>
+
+---
+
+### <a name="reto-23-️-encuentra-numeros-perdidos"> Reto #23: 🔢 Encuentra los números perdidos </a>
+
+<h3> Fácil 🟢 </h3>
+
+Los elfos están trabajando en un sistema para verificar las listas de regalos de los niños 👧👦. Sin embargo, ¡algunas listas están incompletas y faltan números!
+
+Tu tarea es escribir una función que, dado un array de números, encuentre todos los números que faltan entre 1 y n (donde n es el tamaño del array o el número más alto del array).
+
+Eso sí, ten en cuenta que:
+
+Los números pueden aparecer más de una vez y otros pueden faltar
+El array siempre contiene números enteros positivos
+Siempre se empieza a contar desde el 1
+
+```javascript
+findMissingNumbers([1, 2, 4, 6])
+// [3, 5]
+
+findMissingNumbers([4, 8, 7, 2])
+// [1, 3, 5, 6]
+
+findMissingNumbers([3, 2, 1, 1])
+// []
+
+findDisappearedNumbers([5, 5, 5, 3, 3, 2, 1])
+// [4]
+
+```
+<ul>
+  <li> <a href="/js/23-encuentra-numeros.js"> Resolution Js ⭐⭐⭐⭐ </a> </li>
 </ul>

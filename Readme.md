@@ -23,6 +23,7 @@
   - [ Reto #20: 🎁 Encuentra los regalos faltantes y duplicados ](#-reto-20--encuentra-los-regalos-faltantes-y-duplicados-)
   - [ Reto #21: 🎄 Calcula la altura del árbol de Navidad ](#-reto-21--calcula-la-altura-del-árbol-de-navidad-)
   - [ Reto #23: 🔢 Encuentra los números perdidos ](#-reto-23--encuentra-los-números-perdidos-)
+  - [ Reto #25: Ejecuta el lenguaje mágico ](#-reto-25-ejecuta-el-lenguaje-mágico-)
 ---
 ### <a name="reto-1--primer-regalo-repetido">Reto #1: 🎁 ¡Primer regalo repetido! </a>
 <h3> Fácil 🟢 </h3>
@@ -851,4 +852,42 @@ findDisappearedNumbers([5, 5, 5, 3, 3, 2, 1])
 ```
 <ul>
   <li> <a href="/js/23-encuentra-numeros.js"> Resolution Js ⭐⭐⭐⭐ </a> </li>
+</ul>
+
+---
+
+### <a name="reto-25-ejecuta-lenguaje-magico"> Reto #25: Ejecuta el lenguaje mágico </a>
+
+<h3> Medio 🟠 </h3>
+
+¡Ya hemos repartido todos los regalos! De vuelta al taller, ya comienzan los preparativos para el año que viene.
+
+Un elfo genio está creando un lenguaje de programación mágico 🪄, que ayudará a simplificar la entrega de regalos a los niños en 2025.
+
+Los programas siempre empiezan con el valor 0 y el lenguaje es una cadena de texto donde cada caracter representa una instrucción:
+
+> Se mueve a la siguiente instrucción
++ Incrementa en 1 el valor actual
+- Decrementa en 1 el valor actual
+[ y ]: Bucle. Si el valor actual es 0, salta a la instrucción después de ]. Si no es 0, vuelve a la instrucción después de [
+{y }: Condicional. Si el valor actual es 0, salta a la instrucción después de }. Si no es 0, sigue a la instrucción después de {
+Tienes que devolver el valor del programa tras ejecutar todas las instrucciones.
+
+```javascript
+execute('+++') // 3
+execute('+--') // -1
+execute('>+++[-]') // 0
+execute('>>>+{++}') // 3
+execute('+{[-]+}+') // 2
+execute('{+}{+}{+}') // 0
+execute('------[+]++') // 2
+execute('-[++{-}]+{++++}') // 5
+// [4]
+
+```
+
+Nota: Un condicional puede tener un bucle dentro y también un bucle puede tener un condicional. Pero nunca se anidan dos bucles o dos condicionales.
+
+<ul>
+  <li> <a href="/js/25-ejecuta-el-lenguaje.js"> Resolution Js ⭐⭐⭐⭐⭐ </a> </li>
 </ul>

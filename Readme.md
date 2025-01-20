@@ -8,14 +8,11 @@
 |01| Reto #1: 🎁 ¡Primer regalo repetido!| [Solucion](./js/01-primer-regalo/README.md)|⭐⭐⭐⭐⭐| 🟢 |
 |02| Reto #2: 🖼️ Enmarcando nombres| [Solucion](./js/02-enmarcando_nombres/README.md)|⭐⭐⭐⭐⭐| 🟢 |
 |03| Reto #3: 🏗️ Organizando el inventario | [Solucion](./js/03-organizando_juguetes//README.md)|⭐⭐⭐⭐⭐| 🟢 |
-
-
-
+|04| Reto #4: 🎄 Decorando el árbol de Navidad | [Solucion](./js/04-decorando_el_arbol_de_navidad/README.md)|⭐⭐⭐⭐⭐| 🟠 |
 
 ---
 ## List of problems
 - [List of problems](#list-of-problems)
-  - [ Reto #4: 🎄 Decorando el árbol de Navidad ](#-reto-4--decorando-el-árbol-de-navidad-)
   - [ Reto #5: 👞 Emparejando botas ](#-reto-5--emparejando-botas-)
   - [ Reto #6: 📦 ¿Regalo dentro de la caja? ](#-reto-6--regalo-dentro-de-la-caja-)
   - [ Reto #7: 👹 El ataque del Grinch ](#-reto-7--el-ataque-del-grinch-)
@@ -35,66 +32,6 @@
 ---
 
 ---
-
-### <a name="reto-4-️-decorando-el-arbol"> Reto #4: 🎄 Decorando el árbol de Navidad </a>
-
-<h3> Medio 🟠 </h3>
-
-¡Es hora de poner el árbol de Navidad en casa! 🎄 Pero este año queremos que sea especial. Vamos a crear una función que recibe la altura del árbol (un entero positivo entre 1 y 100) y un carácter especial para decorarlo.
-
-La función debe devolver un string que represente el árbol de Navidad, construido de la siguiente manera:
-
-El árbol está compuesto de triángulos de caracteres especiales.
-Los espacios en blanco a los lados del árbol se representan con guiones bajos _.
-Todos los árboles tienen un tronco de dos líneas, representado por el carácter #.
-El árbol siempre debe tener la misma longitud por cada lado.
-Debes asegurarte de que el árbol tenga la forma correcta usando saltos de línea \n para cada línea.
-
-
-```javascript
-const tree = createXmasTree(5, '*')
-console.log(tree)
-/*
-____*____
-___***___
-__*****__
-_*******_
-*********
-____#____
-____#____
-*/
-
-const tree2 = createXmasTree(3, '+')
-console.log(tree2)
-/*
-__+__
-_+++_
-+++++
-__#__
-__#__
-*/
-
-const tree3 = createXmasTree(6, '@')
-console.log(tree3)
-/*
-_____@_____
-____@@@____
-___@@@@@___
-__@@@@@@@__
-_@@@@@@@@@_
-@@@@@@@@@@@
-_____#_____
-_____#_____
-*/
-
-```
-Asegúrate de utilizar saltos de línea \n al final de cada línea, excepto en la última.
-
-<ul> 
-  <li> <a href="/js/04-decorando-el-arbol-de-navidad.js"> Resolution Js ⭐⭐⭐⭐⭐</a> </li>
-  <li> <a href="/ts/04-decorando-el-arbol-de-navidad.ts"> Resolution Ts ⭐⭐⭐⭐</a> </li>
-  <li> <a href="/python/04-decorando-el-arbol-de-navidad.py"> Resolution Py ⭐⭐⭐</a> </li>
-</ul>
 
 ---
 

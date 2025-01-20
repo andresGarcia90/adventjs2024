@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:1": "jest ./js/01-primer-regalo/01-primer-regalo-prometido.test.js",
     "test:2": "jest ./js/02-enmarcando_nombres/02-enmarcando-nombres.test.js",
-    "test:3": "jest ./js/03-organizando_juguetes/03-organizando-juguetes.test.js"
+    "test:3": "jest ./js/03-organizando_juguetes/03-organizando-juguetes.test.js",
+    "test:4": "jest ./js/04-decorando_el_arbol_de_navidad/04-decorando-el-arbol-de-navidad.test.js"
   },
   "keywords": [
     "adventjs2024"

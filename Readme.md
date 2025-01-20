@@ -9,12 +9,12 @@
 |02| Reto #2: 🖼️ Enmarcando nombres| [Solucion](./js/02-enmarcando_nombres/README.md)|⭐⭐⭐⭐⭐| 🟢 |
 |03| Reto #3: 🏗️ Organizando el inventario | [Solucion](./js/03-organizando_juguetes//README.md)|⭐⭐⭐⭐⭐| 🟢 |
 |04| Reto #4: 🎄 Decorando el árbol de Navidad | [Solucion](./js/04-decorando_el_arbol_de_navidad/README.md)|⭐⭐⭐⭐⭐| 🟠 |
-|04| Reto #5: 👞 Emparejando botas | [Solucion](./js/05-emparejando_botas/README.md)|⭐⭐⭐⭐⭐| 🟢 |
+|05| Reto #5: 👞 Emparejando botas | [Solucion](./js/05-emparejando_botas/README.md)|⭐⭐⭐⭐⭐| 🟢 |
+|06| Reto #6: 📦 ¿Regalo dentro de la caja? | [Solucion](./js/06-regalo_dentro_de_la_caja//README.md)|⭐⭐⭐⭐⭐| 🟠 |
 
 ---
 ## List of problems
 - [List of problems](#list-of-problems)
-  - [ Reto #6: 📦 ¿Regalo dentro de la caja? ](#-reto-6--regalo-dentro-de-la-caja-)
   - [ Reto #7: 👹 El ataque del Grinch ](#-reto-7--el-ataque-del-grinch-)
   - [ Reto #8: 🦌 La carrera de renos ](#-reto-8--la-carrera-de-renos-)
   - [ Reto #9: 🚂 El tren mágico ](#-reto-9--el-tren-mágico-)
@@ -27,55 +27,6 @@
   - [ Reto #21: 🎄 Calcula la altura del árbol de Navidad ](#-reto-21--calcula-la-altura-del-árbol-de-navidad-)
   - [ Reto #23: 🔢 Encuentra los números perdidos ](#-reto-23--encuentra-los-números-perdidos-)
   - [ Reto #25: Ejecuta el lenguaje mágico ](#-reto-25-ejecuta-el-lenguaje-mágico-)
-
-### <a name="reto-6-️-regalo-dentro-de-la-caja"> Reto #6: 📦 ¿Regalo dentro de la caja? </a>
-
-<h3> Medio 🟠 </h3>
-
-Ya hemos empaquetado cientos de regalos 🎁… pero a un elfo se le ha olvidado revisar si el regalo, representado por un asterisco *, está dentro de la caja.
-
-La caja tiene un regalo (*) y cuenta como dentro de la caja si:
-
-- Está rodeada por # en los bordes de la caja.
-- El * no está en los bordes de la caja.
-Ten en cuenta entonces que el * puede estar dentro, fuera o incluso no estar. Y debemos devolver true si el * está dentro de la caja y false en caso contrario.
-
-Ejemplos:
-
-```javascript
-inBox([
-  "###",
-  "#*#",
-  "###"
-]) // ➞ true
-
-inBox([
-  "####",
-  "#* #",
-  "#  #",
-  "####"
-]) // ➞ true
-
-inBox([
-  "*####",
-  "#   #",
-  "#  #*",
-  "####"
-]) // ➞ false
-
-inBox([
-  "#####",
-  "#   #",
-  "#   #",
-  "#   #",
-  "#####"
-]) // ➞ false
-```
-
-<ul>
-  <li> <a href="/js/06-regalo-dentro-de-la-caja.js"> Resolution Js ⭐⭐⭐⭐⭐ </a> </li>
-  <li> <a href="/ts/06-regalo-dentro-de-la-caja.ts"> Resolution Ts ⭐⭐⭐⭐⭐ </a> </li>
-</ul>
 
 
 ---

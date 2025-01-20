@@ -9,7 +9,8 @@
     "test:2": "jest ./js/02-enmarcando_nombres/02-enmarcando-nombres.test.js",
     "test:3": "jest ./js/03-organizando_juguetes/03-organizando-juguetes.test.js",
     "test:4": "jest ./js/04-decorando_el_arbol_de_navidad/04-decorando-el-arbol-de-navidad.test.js",
-    "test:5": "jest ./js/05-emparejando_botas/05-emparejando-botas.test.js"
+    "test:5": "jest ./js/05-emparejando_botas/05-emparejando-botas.test.js",
+    "test:6": "jest ./js/06-regalo_dentro_de_la_caja/06-regalo-dentro-de-la-caja.test.js"
   },
   "keywords": [
     "adventjs2024"

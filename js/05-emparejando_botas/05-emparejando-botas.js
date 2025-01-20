@@ -17,9 +17,5 @@ function organizeShoes(shoes) {
 
   return pairOfShoes;
 }
-const shoes = [
-  { type: 'I', size: 38 },
-  { type: 'R', size: 38 },
-  { type: 'R', size: 38 }
-];
-console.log(organizeShoes(shoes));
+
+module.exports = organizeShoes;

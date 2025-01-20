@@ -9,11 +9,11 @@
 |02| Reto #2: 🖼️ Enmarcando nombres| [Solucion](./js/02-enmarcando_nombres/README.md)|⭐⭐⭐⭐⭐| 🟢 |
 |03| Reto #3: 🏗️ Organizando el inventario | [Solucion](./js/03-organizando_juguetes//README.md)|⭐⭐⭐⭐⭐| 🟢 |
 |04| Reto #4: 🎄 Decorando el árbol de Navidad | [Solucion](./js/04-decorando_el_arbol_de_navidad/README.md)|⭐⭐⭐⭐⭐| 🟠 |
+|04| Reto #5: 👞 Emparejando botas | [Solucion](./js/05-emparejando_botas/README.md)|⭐⭐⭐⭐⭐| 🟢 |
 
 ---
 ## List of problems
 - [List of problems](#list-of-problems)
-  - [ Reto #5: 👞 Emparejando botas ](#-reto-5--emparejando-botas-)
   - [ Reto #6: 📦 ¿Regalo dentro de la caja? ](#-reto-6--regalo-dentro-de-la-caja-)
   - [ Reto #7: 👹 El ataque del Grinch ](#-reto-7--el-ataque-del-grinch-)
   - [ Reto #8: 🦌 La carrera de renos ](#-reto-8--la-carrera-de-renos-)
@@ -27,63 +27,6 @@
   - [ Reto #21: 🎄 Calcula la altura del árbol de Navidad ](#-reto-21--calcula-la-altura-del-árbol-de-navidad-)
   - [ Reto #23: 🔢 Encuentra los números perdidos ](#-reto-23--encuentra-los-números-perdidos-)
   - [ Reto #25: Ejecuta el lenguaje mágico ](#-reto-25-ejecuta-el-lenguaje-mágico-)
----
-
----
-
----
-
----
-
-### <a name="reto-5-️-emparejando-botas"> Reto #5: 👞 Emparejando botas </a>
-<h3> Fácil 🟢 </h3>
-
-Los elfos 🧝🧝‍♂️ de Santa Claus han encontrado un montón de botas mágicas desordenadas en el taller. Cada bota se describe por dos valores:
-
-- type indica si es una bota izquierda (I) o derecha (R).
-- size indica el tamaño de la bota.
-  
-Tu tarea es ayudar a los elfos a emparejar todas las botas del mismo tamaño que tengan izquierda y derecha. Para ello, debes devolver una lista con los tamaños disponibles después de emparejar las botas.
-
-```javascript
-const shoes = [
-  { type: 'I', size: 38 },
-  { type: 'R', size: 38 },
-  { type: 'R', size: 42 },
-  { type: 'I', size: 41 },
-  { type: 'I', size: 42 }
-]
-
-organizeShoes(shoes)
-// [38, 42]
-
-const shoes2 = [
-  { type: 'I', size: 38 },
-  { type: 'R', size: 38 },
-  { type: 'I', size: 38 },
-  { type: 'I', size: 38 },
-  { type: 'R', size: 38 }
-]
-// [38, 38]
-
-const shoes3 = [
-  { type: 'I', size: 38 },
-  { type: 'R', size: 36 },
-  { type: 'R', size: 42 },
-  { type: 'I', size: 41 },
-  { type: 'I', size: 42 }
-]
-
-organizeShoes(shoes3)
-// []
-```
-<ul>
-  <li> <a href="/js/05-emparejando-botas.js"> Resolution Js ⭐⭐⭐⭐⭐ </a> </li>
-  <li> <a href="/ts/05-emparejando-botas.ts"> Resolution Ts ⭐⭐ </a> </li>
-  <li> <a href="/python/05-emparejando-botas.py"> Resolution Py ⭐⭐⭐ </a> </li>
-</ul>
-
----
 
 ### <a name="reto-6-️-regalo-dentro-de-la-caja"> Reto #6: 📦 ¿Regalo dentro de la caja? </a>
 

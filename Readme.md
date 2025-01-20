@@ -10,12 +10,12 @@
 |03| Reto #3: 🏗️ Organizando el inventario | [Solucion](./js/03-organizando_juguetes//README.md)|⭐⭐⭐⭐⭐| 🟢 |
 |04| Reto #4: 🎄 Decorando el árbol de Navidad | [Solucion](./js/04-decorando_el_arbol_de_navidad/README.md)|⭐⭐⭐⭐⭐| 🟠 |
 |05| Reto #5: 👞 Emparejando botas | [Solucion](./js/05-emparejando_botas/README.md)|⭐⭐⭐⭐⭐| 🟢 |
-|06| Reto #6: 📦 ¿Regalo dentro de la caja? | [Solucion](./js/06-regalo_dentro_de_la_caja//README.md)|⭐⭐⭐⭐⭐| 🟠 |
+|06| Reto #6: 📦 ¿Regalo dentro de la caja? | [Solucion](./js/06-regalo_dentro_de_la_caja/README.md)|⭐⭐⭐⭐⭐| 🟠 |
+|07| Reto #7: 👹 El ataque del Grinch | [Solucion](./js/07_el_ataque_del_grinch/README.md)|⭐⭐⭐⭐⭐| 🟠 |
 
 ---
 ## List of problems
 - [List of problems](#list-of-problems)
-  - [ Reto #7: 👹 El ataque del Grinch ](#-reto-7--el-ataque-del-grinch-)
   - [ Reto #8: 🦌 La carrera de renos ](#-reto-8--la-carrera-de-renos-)
   - [ Reto #9: 🚂 El tren mágico ](#-reto-9--el-tren-mágico-)
   - [ Reto #10: 👩‍💻 El ensamblador élfico ](#-reto-10--el-ensamblador-élfico-)
@@ -27,43 +27,6 @@
   - [ Reto #21: 🎄 Calcula la altura del árbol de Navidad ](#-reto-21--calcula-la-altura-del-árbol-de-navidad-)
   - [ Reto #23: 🔢 Encuentra los números perdidos ](#-reto-23--encuentra-los-números-perdidos-)
   - [ Reto #25: Ejecuta el lenguaje mágico ](#-reto-25-ejecuta-el-lenguaje-mágico-)
-
-
----
-
-### <a name="reto-7-️-ataque-del-grinch"> Reto #7: 👹 El ataque del Grinch </a>
-<h3> Medio 🟠 </h3>
-
-¡El grinch 👹 ha pasado por el taller de Santa Claus! Y menudo desastre ha montado. Ha cambiado el orden de algunos paquetes, por lo que los envíos no se pueden realizar.
-
-Por suerte, el elfo Pheralb ha detectado el patrón que ha seguido el grinch para desordenarlos. Nos ha escrito las reglas que debemos seguir para reordenar los paquetes. Las instrucciones que siguen son:
-
-Recibirás un string que contiene letras y paréntesis.
-Cada vez que encuentres un par de paréntesis, debes voltear el contenido dentro de ellos.
-Si hay paréntesis anidados, resuelve primero los más internos.
-Devuelve el string resultante con los paréntesis eliminados, pero con el contenido volteado correctamente.
-Nos ha dejado algunos ejemplos:
-
-```javascript
-fixPackages('a(cb)de')
-// ➞ "abcde"
-// Volteamos "cb" dentro de los paréntesis
-
-fixPackages('a(bc(def)g)h')
-// ➞ "agdefcbh"
-// 1º volteamos "def" → "fed", luego volteamos "bcfedg" → "gdefcb"
-
-fixPackages('abc(def(gh)i)jk')
-// ➞ "abcighfedjk"
-// 1º volteamos "gh" → "hg", luego "defhgi" → "ighfed"
-
-fixPackages('a(b(c))e')
-// ➞ "acbe"
-// 1º volteamos "c" → "c", luego "bc" → "cb"
-```
-<ul>
-  <li> <a href="/js/07-el-ataque-del-grinch.js"> Resolution Js ⭐⭐⭐⭐ </a> </li>
-</ul>
 
 ---
 

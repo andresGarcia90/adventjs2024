@@ -1,4 +1,11 @@
 
+/**
+ * Fixes the packages string by flipping the order of characters
+ * between matching parentheses.
+ *
+ * @param {string} packages
+ * @returns {string}
+ */
 function fixPackages(packages) {
   const stack = [];
   const result = packages.split('');
@@ -15,3 +22,5 @@ function fixPackages(packages) {
 
   return result.join('');
 }
+
+module.exports = fixPackages;

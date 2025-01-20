@@ -11,12 +11,12 @@
 |04| Reto #4: 🎄 Decorando el árbol de Navidad | [Solucion](./js/04-decorando_el_arbol_de_navidad/README.md)|⭐⭐⭐⭐⭐| 🟠 |
 |05| Reto #5: 👞 Emparejando botas | [Solucion](./js/05-emparejando_botas/README.md)|⭐⭐⭐⭐⭐| 🟢 |
 |06| Reto #6: 📦 ¿Regalo dentro de la caja? | [Solucion](./js/06-regalo_dentro_de_la_caja/README.md)|⭐⭐⭐⭐⭐| 🟠 |
-|07| Reto #7: 👹 El ataque del Grinch | [Solucion](./js/07_el_ataque_del_grinch/README.md)|⭐⭐⭐⭐⭐| 🟠 |
+|07| Reto #7: 👹 El ataque del Grinch | [Solucion](./js/07_el_ataque_del_grinch/README.md)|⭐⭐⭐⭐| 🟠 |
+|08| Reto #8: 🦌 La carrera de renos | [Solucion](./js/08-carrera_de_renos/README.md)|⭐⭐⭐| 🟢 |
 
 ---
 ## List of problems
 - [List of problems](#list-of-problems)
-  - [ Reto #8: 🦌 La carrera de renos ](#-reto-8--la-carrera-de-renos-)
   - [ Reto #9: 🚂 El tren mágico ](#-reto-9--el-tren-mágico-)
   - [ Reto #10: 👩‍💻 El ensamblador élfico ](#-reto-10--el-ensamblador-élfico-)
   - [ Reto #11: 🏴‍☠️ Nombres de archivos codificados ](#-reto-11-️-nombres-de-archivos-codificados-)
@@ -31,55 +31,7 @@
 ---
 
 
-### <a name="reto-8-️-carrera-de-renos"> Reto #8: 🦌 La carrera de renos </a>
-<h3> Fácil 🟢 </h3>
 
-¡Es hora de seleccionar a los renos más rápidos para los viajes de Santa! 🦌🎄
-Santa Claus ha organizado unas emocionantes carreras de renos para decidir cuáles están en mejor forma.
-
-Tu tarea es mostrar el progreso de cada reno en una pista de nieve en formato isométrico.
-
-La información que recibes:
-
-indices: Un array de enteros que representan el progreso de cada reno en la pista:
-0: El carril está vacío.
-Número positivo: La posición actual del reno desde el inicio de la pista.
-Número negativo: La posición actual del reno desde el final de la pista.
-length: La longitud de cada carril.
-Devuelve un string que represente la pista de la carrera:
-
-Cada carril tiene exactamente length posiciones llenas de nieve (~).
-Cada reno se representa con la letra r.
-Los carriles están numerados al final con /1, /2, etc.
-La vista es isométrica, por lo que los carriles inferiores están desplazados hacia la derecha.
-
-```javascript
-drawRace([0, 5, -3], 10)
-/*
-  ~~~~~~~~~~ /1
- ~~~~~r~~~~ /2
-~~~~~~~r~~ /3
-*/
-
-drawRace([2, -1, 0, 5], 8)
-/*
-   ~~r~~~~~ /1
-  ~~~~~~~r /2
- ~~~~~~~~ /3
-~~~~~r~~ /4
-*/
-
-drawRace([3, 7, -2], 12)
-/*
-  ~~~r~~~~~~~~ /1
- ~~~~~~~~r~~~ /2
-~~~~~~~~~r~~ /3
-*/
-
-```
-<ul>
-  <li> <a href="/js/08-carrera-de-renos.js"> Resolution Js ⭐⭐⭐ </a> </li>
-</ul>
 
 ---
 

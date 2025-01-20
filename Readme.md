@@ -3,10 +3,16 @@
 <h3 align="center">This project was created resolving the problems in the site  <a href="https://adventjs.dev/es"> adventjs.dev </a>.</h3>
 <h3 align="center">Thanks Midudev to create this problems  <a href="https://midu.dev/"> midu.dev </a>.</h3>
 
+|#| Retos | Solución | Resultado | Nivel |
+| :-: | :-: | :-: | :-: | :-: |
+|01| Reto #1: 🎁 ¡Primer regalo repetido!| [Solucion](./js/01-primer-regalo/README.md)|⭐⭐⭐⭐⭐| 🟢 |
+
+
+
+
 ---
 ## List of problems
 - [List of problems](#list-of-problems)
-  - [Reto #1: 🎁 ¡Primer regalo repetido! ](#reto-1--primer-regalo-repetido-)
   - [ Reto #2: 🖼️ Enmarcando nombres ](#-reto-2-️-enmarcando-nombres-)
   - [ Reto #3: 🏗️ Organizando el inventario ](#-reto-3-️-organizando-el-inventario-)
   - [ Reto #4: 🎄 Decorando el árbol de Navidad ](#-reto-4--decorando-el-árbol-de-navidad-)
@@ -25,33 +31,7 @@
   - [ Reto #23: 🔢 Encuentra los números perdidos ](#-reto-23--encuentra-los-números-perdidos-)
   - [ Reto #25: Ejecuta el lenguaje mágico ](#-reto-25-ejecuta-el-lenguaje-mágico-)
 ---
-### <a name="reto-1--primer-regalo-repetido">Reto #1: 🎁 ¡Primer regalo repetido! </a>
-<h3> Fácil 🟢 </h3>
-Santa Claus 🎅 ha recibido una lista de números mágicos que representan regalos 🎁, pero algunos de ellos están duplicados y deben ser eliminados para evitar confusiones. Además, los regalos deben ser ordenados en orden ascendente antes de entregárselos a los elfos.
 
-Tu tarea es escribir una función que reciba una lista de números enteros (que pueden incluir duplicados) y devuelva una nueva lista sin duplicados, ordenada en orden ascendente.
-
-```javascript 
-const gifts1 = [3, 1, 2, 3, 4, 2, 5]
-const preparedGifts1 = prepareGifts(gifts1)
-console.log(preparedGifts1) // [1, 2, 3, 4, 5]
-
-const gifts2 = [6, 5, 5, 5, 5]
-const preparedGifts2 = prepareGifts(gifts2)
-console.log(preparedGifts2) // [5, 6]
-
-const gifts3 = []
-const preparedGifts3 = prepareGifts(gifts3)
-console.log(preparedGifts3) // []
-// No hay regalos, la lista queda vacía
-```
-<ul>
-  <li><a href="/js/01-primer-regalo-prometido.js"> Resolution JS ⭐⭐⭐⭐⭐ </a></li>
-  <li><a href="/ts/01-primer-regalo-prometido.ts"> Resolution TS ⭐⭐⭐ </a> </li>
-  <li><a href="/python//01-primer-regalo-prometido.py"> Resolution Py ⭐⭐⭐⭐ </a> </li>
-</ul>
-
----
 ### <a name="reto-2-️-enmarcando-nombres"> Reto #2: 🖼️ Enmarcando nombres </a>
 <h3> Fácil 🟢 </h3>
 Santa Claus 🎅 quiere enmarcar los nombres de los niños buenos para decorar su taller 🖼️, pero el marco debe cumplir unas reglas específicas. Tu tarea es ayudar a los elfos a generar este marco mágico.

@@ -6,6 +6,7 @@
 |#| Retos | Solución | Resultado | Nivel |
 | :-: | :-: | :-: | :-: | :-: |
 |01| Reto #1: 🎁 ¡Primer regalo repetido!| [Solucion](./js/01-primer-regalo/README.md)|⭐⭐⭐⭐⭐| 🟢 |
+|02| Reto #2: 🖼️ Enmarcando nombres| [Solucion](./js/02-enmarcando_nombres/README.md)|⭐⭐⭐⭐⭐| 🟢 |
 
 
 
@@ -13,7 +14,6 @@
 ---
 ## List of problems
 - [List of problems](#list-of-problems)
-  - [ Reto #2: 🖼️ Enmarcando nombres ](#-reto-2-️-enmarcando-nombres-)
   - [ Reto #3: 🏗️ Organizando el inventario ](#-reto-3-️-organizando-el-inventario-)
   - [ Reto #4: 🎄 Decorando el árbol de Navidad ](#-reto-4--decorando-el-árbol-de-navidad-)
   - [ Reto #5: 👞 Emparejando botas ](#-reto-5--emparejando-botas-)
@@ -31,61 +31,6 @@
   - [ Reto #23: 🔢 Encuentra los números perdidos ](#-reto-23--encuentra-los-números-perdidos-)
   - [ Reto #25: Ejecuta el lenguaje mágico ](#-reto-25-ejecuta-el-lenguaje-mágico-)
 ---
-
-### <a name="reto-2-️-enmarcando-nombres"> Reto #2: 🖼️ Enmarcando nombres </a>
-<h3> Fácil 🟢 </h3>
-Santa Claus 🎅 quiere enmarcar los nombres de los niños buenos para decorar su taller 🖼️, pero el marco debe cumplir unas reglas específicas. Tu tarea es ayudar a los elfos a generar este marco mágico.
-
-Reglas:
-
-Dado un array de nombres, debes crear un marco rectangular que los contenga a todos.
-Cada nombre debe estar en una línea, alineado a la izquierda.
-El marco está construido con * y tiene un borde de una línea de ancho.
-La anchura del marco se adapta automáticamente al nombre más largo más un margen de 1 espacio a cada lado.
-Ejemplo de funcionamiento:
-
-```javascript
-createFrame(['midu', 'madeval', 'educalvolpz'])
-
-// Resultado esperado:
-***************
-* midu        *
-* madeval     *
-* educalvolpz *
-***************
-
-createFrame(['midu'])
-
-// Resultado esperado:
-********
-* midu *
-********
-
-createFrame(['a', 'bb', 'ccc'])
-
-// Resultado esperado:
-*******
-* a   *
-* bb  *
-* ccc *
-*******
-
-createFrame(['a', 'bb', 'ccc', 'dddd'])
-```
-<ul>
-  <li>
-    <a href="/js/02-enmarcando-nombres.js"> Resolution Js ⭐⭐⭐⭐⭐</a>
-  </li>
-  <li>
-    <a href="/ts/02-enmarcando-nombres.ts"> Resolution Ts ⭐⭐⭐⭐</a>
-  </li>
-
-  <li>
-    <a href="/python/02-enmarcando-nombres.py"> Resolution Py ⭐⭐⭐⭐</a>
-  </li>
-</ul>
-
-
 
 ---
 ### <a name="reto-3-️-organizando-inventario"> Reto #3: 🏗️ Organizando el inventario </a>

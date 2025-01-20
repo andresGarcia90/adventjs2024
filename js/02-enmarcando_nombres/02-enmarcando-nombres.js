@@ -1,3 +1,8 @@
+/**
+ * @param {string[]} names - Array of names to frame
+ * @returns {string} The framed names
+ */
+
 function createFrame(names) {
   let maxLength = 0;
   names.forEach(name => {
@@ -13,3 +18,6 @@ function createFrame(names) {
 
   return [border, ...namesWithSpaces, border].join("\n");
 }
+
+
+module.exports = createFrame;

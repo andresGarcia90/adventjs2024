@@ -46,7 +46,4 @@ function compile(instructions) {
 //   'INC A' // incrementa el valor del registro 'a'
 // ]
 
-const instructions = compile(['INC A', 'INC A', 'DEC A', 'MOV A B']);
-// console.log(compile(instructions));
-
-console.log(compile(instructions));
+module.exports = compile;

@@ -28,5 +28,5 @@
 |21| Reto #21: 🎄 Calcula la altura del árbol de Navidad | [Solution](./js/21-calcula_la_altura/readme.md)|⭐| 🟢 |
 |22| Reto #22: 🎁 Genera combinaciones de regalos | [Solution](./js/22-genera_regalos/readme.md)|⭐⭐⭐⭐⭐| 🟠 |
 |23| Reto #23: 🔢 Encuentra los números perdidos | [Solution](./js/23-encuentra_numeros/readme.md)|⭐⭐⭐⭐⭐| 🟢 |
-|24| Reto #24: 🎁 Genera combinaciones de regalos | [Solution](./js/22-genera_regalos/readme.md)|⭐⭐⭐⭐⭐| 🟠 |
+|24| Reto #24: 🎁 Genera combinaciones de regalos | [Solution](./js/22-genera_regalos/readme.md)|⭐⭐⭐| 🟠 |
 |25| Reto #25: 🪄 Ejecuta el lenguaje mágico | [Solution](./js/25-ejecuta_el_lenguaje/readme.md)|⭐⭐⭐⭐⭐| 🟠 |

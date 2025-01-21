@@ -22,7 +22,8 @@
 |15| Reto #15: ✏️ Dibujando tablas | [Solution](./js/15-dibujando_tablas/readme.md)|⭐⭐⭐| 🟢 |
 |16| Reto #16: ❄️ Limpiando la nieve del camino | [Solution](./js/16-limpiando_nieve/readme.md)|⭐⭐⭐⭐| 🟢 |
 |17| Reto #17: 💣 Buscando las bombas del Grinch | [Solution](./js/17-busca_bombas/readme.md)|⭐⭐⭐| 🟠 |
-|18|# Reto #18: 📇 La agenda mágica de Santa | [Solution](./js/18-agenda_magica/readme.md)|⭐| 🔴 |
+|18| Reto #18: 📇 La agenda mágica de Santa | [Solution](./js/18-agenda_magica/readme.md)|⭐| 🔴 |
+|19| Reto #19: 📦 Apila cajas mágicas para repartir regalos | [Solution](./js/19-apliar_cajas/readme.md)| | 🔴 |
 
 ### <a name="reto-20-️-encuentra-regalos"> Reto #20: 🎁 Encuentra los regalos faltantes y duplicados </a>
 

@@ -21,7 +21,9 @@
     "test:14": "jest ./js/14-Acomodando_los_renos/14-Acomodando-los-renos.test.js",
     "test:15": "jest ./js/15-dibujando_tablas/15-dibujando-tablas.test.js",
     "test:16": "jest ./js/16-limpiando_nieve/16-limpiando-nieve.test.js",
-    "test:17": "jest ./js/17-busca_bombas/17-busca-bombas.test.js"
+    "test:17": "jest ./js/17-busca_bombas/17-busca-bombas.test.js",
+    "test:18": "jest ./js/18-agenda_magica/18-agenda-magica.test.js"
+
     
   },
   "keywords": [

@@ -21,4 +21,6 @@ function generateGiftSets(gifts) {
 // console.log(generateGiftSets(['car']));
 // console.log(generateGiftSets(['1', '2']));
 // console.log(generateGiftSets(['1', '2', '3']));
-console.log(generateGiftSets(['1', '2', '3', '4']));
+// console.log(generateGiftSets(['1', '2', '3', '4']));
+
+module.exports = generateGiftSets;

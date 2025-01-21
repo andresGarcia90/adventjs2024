@@ -18,5 +18,4 @@ function removeSnow(s) {
   return newSnow;
 }
 
-
-console.log(removeSnow('zzz'));
+module.exports = removeSnow;

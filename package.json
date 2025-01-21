@@ -19,7 +19,9 @@
     "test:12": "jest ./js/12-cuanto_cuesta_un_arbol/12-cuanto-cuesta-un-arbol.test.js",
     "test:13": "jest ./js/13_robot_devuelta/13-robot-devuelta.test.js",
     "test:14": "jest ./js/14-Acomodando_los_renos/14-Acomodando-los-renos.test.js",
-    "test:15": "jest ./js/15-dibujando_tablas/15-dibujando-tablas.test.js"
+    "test:15": "jest ./js/15-dibujando_tablas/15-dibujando-tablas.test.js",
+    "test:16": "jest ./js/16-limpiando_nieve/16-limpiando-nieve.test.js"
+
     
     
   },

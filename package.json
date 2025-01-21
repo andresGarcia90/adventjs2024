@@ -26,10 +26,10 @@
     "test:19": "jest ./js/18-agenda_magica/18-agenda-magica.test.js",
     "test:20": "jest ./js/20-encuentre_los_regalos/20-encuentre-los-regalos.test.js",
     "test:21": "jest ./js/21-calcula_la_altura/21-calcula-la-altura.test.js",
-    "test:22": "jest ./js/22-genera_regalos/22-genera-regalos.test.js"
-
-
-    
+    "test:22": "jest ./js/22-genera_regalos/22-genera-regalos.test.js",
+    "test:23": "jest ./js/23-crea_regalos/23-crea-regalos.test.js",
+    "test:24": "jest ./js/24-crea_regalos/24-crea-regalos.test.js",
+    "test:25": "jest ./js/25-ejecuta_el_lenguaje/25-ejecuta-el-lenguaje.test.js"
   },
   "keywords": [
     "adventjs2024"

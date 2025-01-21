@@ -39,5 +39,5 @@ generateGiftSets(['game', 'pc'])
 
 
 <ul>
-  <li> <a href="22-genera-regalos.js"> Resolution Js ⭐⭐⭐⭐ </a> </li>
+  <li> <a href="22-genera-regalos.js"> Resolution Js ⭐⭐⭐⭐⭐ </a> </li>
 </ul>

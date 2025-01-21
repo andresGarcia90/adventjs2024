@@ -25,74 +25,8 @@
 |18| Reto #18: 📇 La agenda mágica de Santa | [Solution](./js/18-agenda_magica/readme.md)|⭐| 🔴 |
 |19| Reto #19: 📦 Apila cajas mágicas para repartir regalos | [Solution](./js/19-apliar_cajas/readme.md)|nope| 🔴 |
 |20| Reto #20: 🎁 Encuentra los regalos faltantes y duplicados | [Solution](./js/20-encuentre_los_regalos/readme.md)|⭐⭐⭐⭐⭐| 🟢 |
-|21|Reto #21: 🎄 Calcula la altura del árbol de Navidad | [Solution](./js/21-calcula_la_altura/readme.md)|⭐| 🟢 |
-
-### <a name="reto-23-️-encuentra-numeros-perdidos"> Reto #23: 🔢 Encuentra los números perdidos </a>
-
-<h3> Fácil 🟢 </h3>
-
-Los elfos están trabajando en un sistema para verificar las listas de regalos de los niños 👧👦. Sin embargo, ¡algunas listas están incompletas y faltan números!
-
-Tu tarea es escribir una función que, dado un array de números, encuentre todos los números que faltan entre 1 y n (donde n es el tamaño del array o el número más alto del array).
-
-Eso sí, ten en cuenta que:
-
-Los números pueden aparecer más de una vez y otros pueden faltar
-El array siempre contiene números enteros positivos
-Siempre se empieza a contar desde el 1
-
-```javascript
-findMissingNumbers([1, 2, 4, 6])
-// [3, 5]
-
-findMissingNumbers([4, 8, 7, 2])
-// [1, 3, 5, 6]
-
-findMissingNumbers([3, 2, 1, 1])
-// []
-
-findDisappearedNumbers([5, 5, 5, 3, 3, 2, 1])
-// [4]
-
-```
-<ul>
-  <li> <a href="/js/23-encuentra-numeros.js"> Resolution Js ⭐⭐⭐⭐ </a> </li>
-</ul>
-
----
-
-### <a name="reto-25-ejecuta-lenguaje-magico"> Reto #25: Ejecuta el lenguaje mágico </a>
-
-<h3> Medio 🟠 </h3>
-
-¡Ya hemos repartido todos los regalos! De vuelta al taller, ya comienzan los preparativos para el año que viene.
-
-Un elfo genio está creando un lenguaje de programación mágico 🪄, que ayudará a simplificar la entrega de regalos a los niños en 2025.
-
-Los programas siempre empiezan con el valor 0 y el lenguaje es una cadena de texto donde cada caracter representa una instrucción:
-
-> Se mueve a la siguiente instrucción
-+ Incrementa en 1 el valor actual
-- Decrementa en 1 el valor actual
-[ y ]: Bucle. Si el valor actual es 0, salta a la instrucción después de ]. Si no es 0, vuelve a la instrucción después de [
-{y }: Condicional. Si el valor actual es 0, salta a la instrucción después de }. Si no es 0, sigue a la instrucción después de {
-Tienes que devolver el valor del programa tras ejecutar todas las instrucciones.
-
-```javascript
-execute('+++') // 3
-execute('+--') // -1
-execute('>+++[-]') // 0
-execute('>>>+{++}') // 3
-execute('+{[-]+}+') // 2
-execute('{+}{+}{+}') // 0
-execute('------[+]++') // 2
-execute('-[++{-}]+{++++}') // 5
-// [4]
-
-```
-
-Nota: Un condicional puede tener un bucle dentro y también un bucle puede tener un condicional. Pero nunca se anidan dos bucles o dos condicionales.
-
-<ul>
-  <li> <a href="/js/25-ejecuta-el-lenguaje.js"> Resolution Js ⭐⭐⭐⭐⭐ </a> </li>
-</ul>
+|21| Reto #21: 🎄 Calcula la altura del árbol de Navidad | [Solution](./js/21-calcula_la_altura/readme.md)|⭐| 🟢 |
+|22| Reto #22: 🎁 Genera combinaciones de regalos | [Solution](./js/22-genera_regalos/readme.md)|⭐⭐⭐⭐⭐| 🟠 |
+|23| Reto #23: 🔢 Encuentra los números perdidos | [Solution](./js/23-encuentra_numeros/readme.md)|⭐⭐⭐⭐⭐| 🟢 |
+|24| Reto #24: 🎁 Genera combinaciones de regalos | [Solution](./js/22-genera_regalos/readme.md)|⭐⭐⭐⭐⭐| 🟠 |
+|25| Reto #25: 🪄 Ejecuta el lenguaje mágico | [Solution](./js/25-ejecuta_el_lenguaje/readme.md)|⭐⭐⭐⭐⭐| 🟠 |

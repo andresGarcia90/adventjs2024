@@ -35,4 +35,5 @@ function execute(code) {
   return value;
 }
 
-console.log(execute('{+}{+}{+}'));
+// console.log(execute('{+}{+}{+}'));
+module.exports = execute;

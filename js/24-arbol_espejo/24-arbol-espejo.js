@@ -16,7 +16,7 @@ function isTreesSynchronized(tree1, tree2) {
     if (node.right) { queue1.push([node.right, level + 1]); }
   }
 
-  console.log(levels1);
+  // console.log(levels1);
   
 
   return [false, tree1.value];
@@ -34,4 +34,6 @@ const tree2 = {
   right: { value: '⭐' },
 };
 
-console.log(isTreesSynchronized(tree1, tree2)); // [true, '🎄']
+// console.log(isTreesSynchronized(tree1, tree2)); // [true, '🎄']
+
+module.exports = isTreesSynchronized;

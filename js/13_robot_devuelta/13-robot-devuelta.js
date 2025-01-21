@@ -40,5 +40,4 @@ function isRobotBack(moves) {
   return currentPosition[0] === 0 && currentPosition[1] === 0 ? true : currentPosition;
 }
 
-
-console.log(isRobotBack('LLL!R')); // true
+module.exports = isRobotBack;

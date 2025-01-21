@@ -15,8 +15,9 @@
 |08| Reto #8: 🦌 La carrera de renos | [Solucion](./js/08-carrera_de_renos/README.md)|⭐⭐⭐| 🟢 |
 |09| Reto #9: 🚂 El tren mágico | [Solucion](./js/09_el_tren_magico/README.md)|⭐| 🟠 |
 |10| Reto #10: 👩‍💻 El ensamblador élfico | [Solucion](./js/10-el_esamblador_elfico/README.md)|⭐| 🟠 |
-|11|Reto #11: 🏴‍☠️ Nombres de archivos codificados | [Solucion](./js/11-nombres_de_archivos_codificados/README.md)|⭐⭐⭐⭐⭐| 🟢 |
-|11|Reto #12: 💵 ¿Cuánto cuesta el árbol? | [Solucion](./js/12-cuanto_cuesta_un_arbol/readme.md)|⭐⭐⭐| 🟢 |
+|11| Reto #11: 🏴‍☠️ Nombres de archivos codificados | [Solucion](./js/11-nombres_de_archivos_codificados/README.md)|⭐⭐⭐⭐⭐| 🟢 |
+|12| Reto #12: 💵 ¿Cuánto cuesta el árbol? | [Solucion](./js/12-cuanto_cuesta_un_arbol/readme.md)|⭐⭐⭐| 🟢 |
+|13| Reto #13: 🤖 ¿El robot está de vuelta? | [Solucion](./js/13-robot-devuelta/readme.md)|⭐| 🔴 |
 
 ---
 ## List of problems

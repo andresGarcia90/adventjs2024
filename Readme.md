@@ -15,11 +15,11 @@
 |08| Reto #8: 🦌 La carrera de renos | [Solucion](./js/08-carrera_de_renos/README.md)|⭐⭐⭐| 🟢 |
 |09| Reto #9: 🚂 El tren mágico | [Solucion](./js/09_el_tren_magico/README.md)|⭐| 🟠 |
 |10| Reto #10: 👩‍💻 El ensamblador élfico | [Solucion](./js/10-el_esamblador_elfico/README.md)|⭐| 🟠 |
+|11|Reto #11: 🏴‍☠️ Nombres de archivos codificados | [Solucion](./js/11-nombres_de_archivos_codificados/README.md)|⭐⭐⭐⭐⭐| 🟢 |
 
 ---
 ## List of problems
 - [List of problems](#list-of-problems)
-  - [ Reto #11: 🏴‍☠️ Nombres de archivos codificados ](#-reto-11-️-nombres-de-archivos-codificados-)
   - [ Reto #14: 🦌 Acomodando los renos ](#-reto-14--acomodando-los-renos-)
   - [ Reto #15: ✏️ Dibujando tablas ](#-reto-15-️-dibujando-tablas-)
   - [Reto #16: ❄️ Limpiando la nieve del camino ](#reto-16-️-limpiando-la-nieve-del-camino-)
@@ -29,37 +29,7 @@
   - [ Reto #25: Ejecuta el lenguaje mágico ](#-reto-25-ejecuta-el-lenguaje-mágico-)
 
 
-### <a name="reto-11-️-nombres-codificados"> Reto #11: 🏴‍☠️ Nombres de archivos codificados </a>
 
-<h3> Fácil 🟢 </h3>
-
-El Grinch ha hackeado 🏴‍☠️ los sistemas del taller de Santa Claus y ha codificado los nombres de todos los archivos importantes. Ahora los elfos no pueden encontrar los archivos originales y necesitan tu ayuda para descifrar los nombres.
-
-Cada archivo sigue este formato:
-
-Comienza con un número (puede contener cualquier cantidad de dígitos).
-Luego tiene un guion bajo _.
-Continúa con un nombre de archivo y su extensión.
-Finaliza con una extensión extra al final (que no necesitamos).
-Ten en cuenta que el nombre de los archivos pueden contener letras (a-z, A-Z), números (0-9), otros guiones bajos (_) y guiones (-).
-
-Tu tarea es implementar una función que reciba un string con el nombre de un archivo codificado y devuelva solo la parte importante: el nombre del archivo y su extensión.
-
-Ejemplos 
-```javascript
-decodeFilename('2023122512345678_sleighDesign.png.grinchwa')
-// ➞ "sleighDesign.png"
-
-decodeFilename('42_chimney_dimensions.pdf.hack2023')
-// ➞ "chimney_dimensions.pdf"
-
-decodeFilename('987654321_elf-roster.csv.tempfile')
-// ➞ "elf-roster.csv"
-
-```
-<ul>
-  <li> <a href="/js/11-nombres-de-archivos-codificados.js"> Resolution Js ⭐⭐⭐⭐⭐ </a> </li>
-</ul>
 
 ---
 

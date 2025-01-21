@@ -8,3 +8,5 @@ function decodeFilename(filename) {
   second.pop()
   return second.join(".");
 }
+
+module.exports = decodeFilename;

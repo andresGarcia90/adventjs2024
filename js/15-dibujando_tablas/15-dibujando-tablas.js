@@ -26,10 +26,4 @@ function drawTable(data) {
   return table.join("\n");
 }
 
-
-const table = drawTable([
-  { id: 1, score: 95 },
-  { id: 2, score: 85 }
-])
-
-console.log(table);
+module.exports = drawTable;

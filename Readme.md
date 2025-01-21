@@ -5,93 +5,22 @@
 
 |#| Retos | Solución | Resultado | Nivel |
 | :-: | :-: | :-: | :-: | :-: |
-|01| Reto #1: 🎁 ¡Primer regalo repetido!| [Solucion](./js/01-primer-regalo/README.md)|⭐⭐⭐⭐⭐| 🟢 |
-|02| Reto #2: 🖼️ Enmarcando nombres| [Solucion](./js/02-enmarcando_nombres/README.md)|⭐⭐⭐⭐⭐| 🟢 |
-|03| Reto #3: 🏗️ Organizando el inventario | [Solucion](./js/03-organizando_juguetes//README.md)|⭐⭐⭐⭐⭐| 🟢 |
-|04| Reto #4: 🎄 Decorando el árbol de Navidad | [Solucion](./js/04-decorando_el_arbol_de_navidad/README.md)|⭐⭐⭐⭐⭐| 🟠 |
-|05| Reto #5: 👞 Emparejando botas | [Solucion](./js/05-emparejando_botas/README.md)|⭐⭐⭐⭐⭐| 🟢 |
-|06| Reto #6: 📦 ¿Regalo dentro de la caja? | [Solucion](./js/06-regalo_dentro_de_la_caja/README.md)|⭐⭐⭐⭐⭐| 🟠 |
-|07| Reto #7: 👹 El ataque del Grinch | [Solucion](./js/07_el_ataque_del_grinch/README.md)|⭐⭐⭐⭐| 🟠 |
-|08| Reto #8: 🦌 La carrera de renos | [Solucion](./js/08-carrera_de_renos/README.md)|⭐⭐⭐| 🟢 |
-|09| Reto #9: 🚂 El tren mágico | [Solucion](./js/09_el_tren_magico/README.md)|⭐| 🟠 |
-|10| Reto #10: 👩‍💻 El ensamblador élfico | [Solucion](./js/10-el_esamblador_elfico/README.md)|⭐| 🟠 |
-|11| Reto #11: 🏴‍☠️ Nombres de archivos codificados | [Solucion](./js/11-nombres_de_archivos_codificados/README.md)|⭐⭐⭐⭐⭐| 🟢 |
-|12| Reto #12: 💵 ¿Cuánto cuesta el árbol? | [Solucion](./js/12-cuanto_cuesta_un_arbol/readme.md)|⭐⭐⭐| 🟢 |
-|13| Reto #13: 🤖 ¿El robot está de vuelta? | [Solucion](./js/13-robot-devuelta/readme.md)|⭐| 🔴 |
-|14| Reto #14: 🦌 Acomodando los renos | [Solucion](./js/14-Acomodando_los_renos/readme.md)|⭐⭐⭐⭐⭐| 🟢 |
+|01| Reto #1: 🎁 ¡Primer regalo repetido!| [Solution](./js/01-primer-regalo/README.md)|⭐⭐⭐⭐⭐| 🟢 |
+|02| Reto #2: 🖼️ Enmarcando nombres| [Solution](./js/02-enmarcando_nombres/README.md)|⭐⭐⭐⭐⭐| 🟢 |
+|03| Reto #3: 🏗️ Organizando el inventario | [Solution](./js/03-organizando_juguetes//README.md)|⭐⭐⭐⭐⭐| 🟢 |
+|04| Reto #4: 🎄 Decorando el árbol de Navidad | [Solution](./js/04-decorando_el_arbol_de_navidad/README.md)|⭐⭐⭐⭐⭐| 🟠 |
+|05| Reto #5: 👞 Emparejando botas | [Solution](./js/05-emparejando_botas/README.md)|⭐⭐⭐⭐⭐| 🟢 |
+|06| Reto #6: 📦 ¿Regalo dentro de la caja? | [Solution](./js/06-regalo_dentro_de_la_caja/README.md)|⭐⭐⭐⭐⭐| 🟠 |
+|07| Reto #7: 👹 El ataque del Grinch | [Solution](./js/07_el_ataque_del_grinch/README.md)|⭐⭐⭐⭐| 🟠 |
+|08| Reto #8: 🦌 La carrera de renos | [Solution](./js/08-carrera_de_renos/README.md)|⭐⭐⭐| 🟢 |
+|09| Reto #9: 🚂 El tren mágico | [Solution](./js/09_el_tren_magico/README.md)|⭐| 🟠 |
+|10| Reto #10: 👩‍💻 El ensamblador élfico | [Solution](./js/10-el_esamblador_elfico/README.md)|⭐| 🟠 |
+|11| Reto #11: 🏴‍☠️ Nombres de archivos codificados | [Solution](./js/11-nombres_de_archivos_codificados/README.md)|⭐⭐⭐⭐⭐| 🟢 |
+|12| Reto #12: 💵 ¿Cuánto cuesta el árbol? | [Solution](./js/12-cuanto_cuesta_un_arbol/readme.md)|⭐⭐⭐| 🟢 |
+|13| Reto #13: 🤖 ¿El robot está de vuelta? | [Solution](./js/13-robot-devuelta/readme.md)|⭐| 🔴 |
+|14| Reto #14: 🦌 Acomodando los renos | [Solution](./js/14-Acomodando_los_renos/readme.md)|⭐⭐⭐⭐⭐| 🟢 |
+|15| Reto #15: ✏️ Dibujando tablas | [Solution](./js/15-dibujando_tablas/readme.md)|⭐⭐⭐| 🟢 |
 
----
-## List of problems
-- [List of problems](#list-of-problems)
-  - [ Reto #15: ✏️ Dibujando tablas ](#-reto-15-️-dibujando-tablas-)
-  - [Reto #16: ❄️ Limpiando la nieve del camino ](#reto-16-️-limpiando-la-nieve-del-camino-)
-  - [ Reto #20: 🎁 Encuentra los regalos faltantes y duplicados ](#-reto-20--encuentra-los-regalos-faltantes-y-duplicados-)
-  - [ Reto #21: 🎄 Calcula la altura del árbol de Navidad ](#-reto-21--calcula-la-altura-del-árbol-de-navidad-)
-  - [ Reto #23: 🔢 Encuentra los números perdidos ](#-reto-23--encuentra-los-números-perdidos-)
-  - [ Reto #25: Ejecuta el lenguaje mágico ](#-reto-25-ejecuta-el-lenguaje-mágico-)
-
-
-
-
----
-
-
-
-
----
-
-### <a name="reto-15-️-dibujando-tablas"> Reto #15: ✏️ Dibujando tablas </a>
-
-<h3> Fácil 🟢 </h3>
-
-Al Polo Norte ha llegado ChatGPT y el elfo Sam Elfman está trabajando en una aplicación de administración de regalos y niños.
-
-Para mejorar la presentación, quiere crear una función drawTable que reciba un array de objetos y lo convierta en una tabla de texto.
-
-La tabla dibujada debe representar los datos del objeto de la siguiente manera:
-
-- Tiene una cabecera con el nombre de la columna.
-- El nombre de la columna pone la primera letra en mayúscula.
-- Cada fila debe contener los valores de los objetos en el orden correspondiente.
-- Cada valor debe estar alineado a la izquierda.
-- Los campos dejan siempre un espacio a la izquierda.
-- Los campos dejan a la derecha el espacio necesario para alinear la caja.
-Mira el ejemplo para ver cómo debes dibujar la tabla:
-
-```javascript
-
-drawTable([
-  { name: 'Alice', city: 'London' },
-  { name: 'Bob', city: 'Paris' },
-  { name: 'Charlie', city: 'New York' }
-])
-// +---------+-----------+
-// | Name    | City      |
-// +---------+-----------+
-// | Alice   | London    |
-// | Bob     | Paris     |
-// | Charlie | New York  |
-// +---------+-----------+
-
-drawTable([
-  { gift: 'Doll', quantity: 10 },
-  { gift: 'Book', quantity: 5 },
-  { gift: 'Music CD', quantity: 1 }
-])
-// +----------+----------+
-// | Gift     | Quantity |
-// +----------+----------+
-// | Doll     | 10       |
-// | Book     | 5        |
-// | Music CD | 1        |
-// +----------+----------+
-
-```
-<ul>
-  <li> <a href="/js/15-dibujando-tablas.js"> Resolution Js ⭐⭐⭐ </a> </li>
-</ul>
-
----
 
 ### <a name="reto-16-️-limpiando-la-nieve">Reto #16: ❄️ Limpiando la nieve del camino </a>
 

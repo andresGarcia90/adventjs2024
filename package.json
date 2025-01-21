@@ -22,7 +22,9 @@
     "test:15": "jest ./js/15-dibujando_tablas/15-dibujando-tablas.test.js",
     "test:16": "jest ./js/16-limpiando_nieve/16-limpiando-nieve.test.js",
     "test:17": "jest ./js/17-busca_bombas/17-busca-bombas.test.js",
-    "test:18": "jest ./js/18-agenda_magica/18-agenda-magica.test.js"
+    "test:18": "jest ./js/18-agenda_magica/18-agenda-magica.test.js",
+    "test:19": "jest ./js/18-agenda_magica/18-agenda-magica.test.js",
+    "test:20": "jest ./js/20-encuentre_los_regalos/20-encuentre-los-regalos.test.js"
 
     
   },

@@ -23,70 +23,8 @@
 |16| Reto #16: ❄️ Limpiando la nieve del camino | [Solution](./js/16-limpiando_nieve/readme.md)|⭐⭐⭐⭐| 🟢 |
 |17| Reto #17: 💣 Buscando las bombas del Grinch | [Solution](./js/17-busca_bombas/readme.md)|⭐⭐⭐| 🟠 |
 |18| Reto #18: 📇 La agenda mágica de Santa | [Solution](./js/18-agenda_magica/readme.md)|⭐| 🔴 |
-|19| Reto #19: 📦 Apila cajas mágicas para repartir regalos | [Solution](./js/19-apliar_cajas/readme.md)| | 🔴 |
-
-### <a name="reto-20-️-encuentra-regalos"> Reto #20: 🎁 Encuentra los regalos faltantes y duplicados </a>
-
-<h3> Fácil 🟢 </h3>
-
-Santa Claus 🎅 está revisando la lista de regalos que debe entregar esta Navidad. Sin embargo, algunos regalos faltan, otros están duplicados, y algunos tienen cantidades incorrectas. Necesita tu ayuda para resolver el problema.
-
-Recibirás dos arrays:
-
-received: Lista con los regalos que Santa tiene actualmente.
-expected: Lista con los regalos que Santa debería tener.
-Tu tarea es escribir una función que, dado received y expected, devuelva un objeto con dos propiedades:
-
-missing: Un objeto donde las claves son los nombres de los regalos faltantes y los valores son las cantidades que faltan.
-extra: Un objeto donde las claves son los nombres de los regalos extra o duplicados y los valores son las cantidades que sobran.
-Ten en cuenta que:
-
-Los regalos pueden repetirse en ambas listas.
-Las listas de regalos están desordenadas.
-Si no hay regalos que falten o sobren, las propiedades correspondientes (missing o extra) deben ser objetos vacíos.
-
-```javascript
-
-fixGiftList(['puzzle', 'car', 'doll', 'car'], ['car', 'puzzle', 'doll', 'ball'])
-// Devuelve:
-// {
-//   missing: { ball: 1 },
-//   extra: { car: 1 }
-// }
-
-fixGiftList(
-  ['book', 'train', 'kite', 'train'],
-  ['train', 'book', 'kite', 'ball', 'kite']
-)
-// Devuelve:
-// {
-//   missing: { ball: 1, kite: 1 },
-//   extra: { train: 1 }
-// }
-
-fixGiftList(
-  ['bear', 'bear', 'car'],
-  ['bear', 'car', 'puzzle', 'bear', 'car', 'car']
-)
-// Devuelve:
-// {
-//   missing: { puzzle: 1, car: 2 },
-//   extra: {}
-// }
-
-fixGiftList(['bear', 'bear', 'car'], ['car', 'bear', 'bear'])
-// Devuelve:
-// {
-//   missing: {},
-//   extra: {}
-// }
-
-```
-<ul>
-  <li> <a href="/js/20-encuentre-los-regalos.js"> Resolution Js ⭐⭐⭐⭐⭐ </a> </li>
-</ul>
-
----
+|19| Reto #19: 📦 Apila cajas mágicas para repartir regalos | [Solution](./js/19-apliar_cajas/readme.md)|nope| 🔴 |
+|20| Reto #20: 🎁 Encuentra los regalos faltantes y duplicados | [Solution](./js/20-encuentre_los_regalos/readme.md)|⭐⭐⭐⭐⭐| 🟢 |
 
 ### <a name="reto-21-️-altura-regalo"> Reto #21: 🎄 Calcula la altura del árbol de Navidad </a>
 

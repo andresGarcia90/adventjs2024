@@ -34,4 +34,4 @@ function fixGiftList(received, expected) {
   return result;
 }
 
-console.log(fixGiftList(['puzzle', 'car', 'doll', 'car'], ['car', 'puzzle', 'doll', 'ball']));
+module.exports = fixGiftList;

@@ -1,9 +1,11 @@
-<h1 align="center">Advent Js 2024</h1>
+<h1 align="center">Resolution Advent Js 2024</h1>
+<p align="center" > 
+  <img  height="200" src="https://github.com/user-attachments/assets/aa5043c2-b4a1-4c2b-9d97-d5f8f5796076" alt="Main title" />
+ </p>
 <h3 align="center">Resolution of problematic in AdventJs</h3>
 <h3 align="center">This project was created resolving the problems in the site  <a href="https://adventjs.dev/es"> adventjs.dev </a>.</h3>
 <h3 align="center">Thanks Midudev to create this problems  <a href="https://midu.dev/"> midu.dev </a>.</h3>
 
-![My Progress](image.png)
 
 |#| Retos | Solución | Resultado | Nivel |
 | :-: | :-: | :-: | :-: | :-: |
@@ -25,10 +27,15 @@
 |16| Reto #16: ❄️ Limpiando la nieve del camino | [Solution](./js/16-limpiando_nieve/readme.md)|⭐⭐⭐⭐| 🟢 |
 |17| Reto #17: 💣 Buscando las bombas del Grinch | [Solution](./js/17-busca_bombas/readme.md)|⭐⭐⭐| 🟠 |
 |18| Reto #18: 📇 La agenda mágica de Santa | [Solution](./js/18-agenda_magica/readme.md)|⭐| 🔴 |
-|19| Reto #19: 📦 Apila cajas mágicas para repartir regalos | [Solution](./js/19-apliar_cajas/readme.md)|nope| 🔴 |
+|19| Reto #19: 📦 Apila cajas mágicas para repartir regalos | [Solution](./js/19-apliar_cajas/readme.md)|⭐⭐⭐⭐| 🔴 |
 |20| Reto #20: 🎁 Encuentra los regalos faltantes y duplicados | [Solution](./js/20-encuentre_los_regalos/readme.md)|⭐⭐⭐⭐⭐| 🟢 |
 |21| Reto #21: 🎄 Calcula la altura del árbol de Navidad | [Solution](./js/21-calcula_la_altura/readme.md)|⭐| 🟢 |
 |22| Reto #22: 🎁 Genera combinaciones de regalos | [Solution](./js/22-genera_regalos/readme.md)|⭐⭐⭐⭐⭐| 🟠 |
 |23| Reto #23: 🔢 Encuentra los números perdidos | [Solution](./js/23-encuentra_numeros/readme.md)|⭐⭐⭐⭐⭐| 🟢 |
 |24| Reto #24: 🎁 Genera combinaciones de regalos | [Solution](./js/22-genera_regalos/readme.md)|⭐⭐⭐| 🟠 |
 |25| Reto #25: 🪄 Ejecuta el lenguaje mágico | [Solution](./js/25-ejecuta_el_lenguaje/readme.md)|⭐⭐⭐⭐⭐| 🟠 |
+
+## My Progress 
+<p align="center"> 
+  <img src="https://github.com/user-attachments/assets/ce8fb9e0-2cda-4a55-9d66-7800563615fb">
+</p>

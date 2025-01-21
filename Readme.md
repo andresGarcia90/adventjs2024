@@ -3,6 +3,8 @@
 <h3 align="center">This project was created resolving the problems in the site  <a href="https://adventjs.dev/es"> adventjs.dev </a>.</h3>
 <h3 align="center">Thanks Midudev to create this problems  <a href="https://midu.dev/"> midu.dev </a>.</h3>
 
+![My Progress](image.png)
+
 |#| Retos | Solución | Resultado | Nivel |
 | :-: | :-: | :-: | :-: | :-: |
 |01| Reto #1: 🎁 ¡Primer regalo repetido!| [Solution](./js/01-primer-regalo/README.md)|⭐⭐⭐⭐⭐| 🟢 |

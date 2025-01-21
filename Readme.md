@@ -20,7 +20,8 @@
 |13| Reto #13: 🤖 ¿El robot está de vuelta? | [Solution](./js/13-robot-devuelta/readme.md)|⭐| 🔴 |
 |14| Reto #14: 🦌 Acomodando los renos | [Solution](./js/14-Acomodando_los_renos/readme.md)|⭐⭐⭐⭐⭐| 🟢 |
 |15| Reto #15: ✏️ Dibujando tablas | [Solution](./js/15-dibujando_tablas/readme.md)|⭐⭐⭐| 🟢 |
-|15| Reto #16: ❄️ Limpiando la nieve del camino | [Solution](./js/16-limpiando_nieve/readme.md)|⭐⭐⭐⭐| 🟢 |
+|16| Reto #16: ❄️ Limpiando la nieve del camino | [Solution](./js/16-limpiando_nieve/readme.md)|⭐⭐⭐⭐| 🟢 |
+|17| Reto #17: 💣 Buscando las bombas del Grinch | [Solution](./js/17-busca_bombas/readme.md)|⭐⭐⭐| 🟠 |
 
 ### <a name="reto-20-️-encuentra-regalos"> Reto #20: 🎁 Encuentra los regalos faltantes y duplicados </a>
 

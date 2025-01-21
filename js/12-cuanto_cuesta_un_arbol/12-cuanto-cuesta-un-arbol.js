@@ -28,6 +28,4 @@ function calculatePrice(ornaments) {
   return price;
 }
 
-const price = calculatePrice('#@Z');
-console.log(price);
-
+module.exports = calculatePrice;

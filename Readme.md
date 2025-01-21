@@ -16,6 +16,7 @@
 |09| Reto #9: 🚂 El tren mágico | [Solucion](./js/09_el_tren_magico/README.md)|⭐| 🟠 |
 |10| Reto #10: 👩‍💻 El ensamblador élfico | [Solucion](./js/10-el_esamblador_elfico/README.md)|⭐| 🟠 |
 |11|Reto #11: 🏴‍☠️ Nombres de archivos codificados | [Solucion](./js/11-nombres_de_archivos_codificados/README.md)|⭐⭐⭐⭐⭐| 🟢 |
+|11|Reto #12: 💵 ¿Cuánto cuesta el árbol? | [Solucion](./js/12-cuanto_cuesta_un_arbol/readme.md)|⭐⭐⭐| 🟢 |
 
 ---
 ## List of problems

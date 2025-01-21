@@ -15,7 +15,8 @@
     "test:8": "jest ./js/08-carrera_de_renos/08-carrera-de-renos.test.js",
     "test:9": "jest ./js/09_el_tren_magico/09-el-tren-magico.test.js",
     "test:10": "jest ./js/10-el_esamblador_elfico/10-el-esamblador-elfico.test.js",
-    "test:11": "jest ./js/11-nombres_de_archivos_codificados/11-nombres-de-archivos-codificados.test.js"
+    "test:11": "jest ./js/11-nombres_de_archivos_codificados/11-nombres-de-archivos-codificados.test.js",
+    "test:12": "jest ./js/12-cuanto_cuesta_un_arbol/12-cuanto-cuesta-un-arbol.test.js"
     
     
   },

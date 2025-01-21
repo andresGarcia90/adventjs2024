@@ -46,4 +46,4 @@ const tree = {
   },
 };
 
-console.log(treeHeight(tree));
+module.exports = treeHeight;

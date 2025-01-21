@@ -25,60 +25,7 @@
 |18| Reto #18: 📇 La agenda mágica de Santa | [Solution](./js/18-agenda_magica/readme.md)|⭐| 🔴 |
 |19| Reto #19: 📦 Apila cajas mágicas para repartir regalos | [Solution](./js/19-apliar_cajas/readme.md)|nope| 🔴 |
 |20| Reto #20: 🎁 Encuentra los regalos faltantes y duplicados | [Solution](./js/20-encuentre_los_regalos/readme.md)|⭐⭐⭐⭐⭐| 🟢 |
-
-### <a name="reto-21-️-altura-regalo"> Reto #21: 🎄 Calcula la altura del árbol de Navidad </a>
-
-<h3> Fácil 🟢 </h3>
-
-Santa Claus 🎅 está decorando un árbol de Navidad mágico 🪄, que este año tiene una estructura especial en forma de árbol binario. Cada nodo del árbol representa un regalo, y Santa quiere saber la altura del árbol para colocar la estrella mágica en la punta.
-
-Tu tarea es escribir una función que calcule la altura de un árbol binario. La altura de un árbol binario se define como el número máximo de niveles desde la raíz hasta una hoja. Un árbol vacío tiene una altura de 0.
-
-```javascript
-// Definición del árbol
-const tree = {
-  value: '🎁',
-  left: {
-    value: '🎄',
-    left: {
-      value: '⭐',
-      left: null,
-      right: null
-    },
-    right: {
-      value: '🎅',
-      left: null,
-      right: null
-    }
-  },
-  right: {
-    value: '❄️',
-    left: null,
-    right: {
-      value: '🦌',
-      left: null,
-      right: null
-    }
-  }
-}
-
-// Representación gráfica del árbol:
-//        🎁
-//       /   \
-//     🎄     ❄️
-//    /  \      \
-//  ⭐   🎅      🦌
-
-// Llamada a la función
-treeHeight(tree)
-// Devuelve: 3
-
-```
-<ul>
-  <li> <a href="/js/21-calcula-la-altura.js"> Resolution Js ⭐ </a> </li>
-</ul>
-
----
+|21|Reto #21: 🎄 Calcula la altura del árbol de Navidad | [Solution](./js/21-calcula_la_altura/readme.md)|⭐| 🟢 |
 
 ### <a name="reto-23-️-encuentra-numeros-perdidos"> Reto #23: 🔢 Encuentra los números perdidos </a>
 

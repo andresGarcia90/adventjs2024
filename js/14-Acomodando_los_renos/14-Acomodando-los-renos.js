@@ -14,6 +14,4 @@ function minMovesToStables(reindeer, stables) {
   return movements;
 }
 
-
-console.log(minMovesToStables([2, 6, 9], [3, 8, 5]));
-console.log(minMovesToStables([1, 1, 3], [1, 8, 4]));
+module.exports = minMovesToStables;
